@@ -1,0 +1,891 @@
+diff --git a/include/text_options_strings.h.in b/include/text_options_strings.h.in
+index e4f54480..05bebf46 100644
+--- a/include/text_options_strings.h.in
++++ b/include/text_options_strings.h.in
+@@ -82,7 +82,51 @@
+ #define TEXT_OPT_CHEAT5    _("SUPER SPEED")
+ #define TEXT_OPT_CHEAT6    _("SUPER RESPONSIVE CONTROLS")
+-#define TEXT_OPT_CHEAT7    _("EXIT COURSE AT ANY TIME")
+-#define TEXT_OPT_CHEAT8    _("HUGE MARIO")
+-#define TEXT_OPT_CHEAT9    _("TINY MARIO")
++#define TEXT_OPT_MOON      _("MOON GRAVITY")
++#define TEXT_OPT_RUN       _("RUN SPEED")
++#define TEXT_OPT_JUMP      _("ALL JUMPS HIGHER")
++#define TEXT_OPT_SPDDSP    _("SPEED DISPLAY")
++#define TEXT_OPT_QUIKEND   _("QUICK ENDING")
++#define TEXT_OPT_AWK       _("AUTOWALLKICK")
++#define TEXT_OPT_COIN      _("COIN SPAWN")
++#define TEXT_OPT_SHELL     _("GET SHELL")
++#define TEXT_OPT_BOB       _("GET BOBOMB")
++#define TEXT_OPT_SWIM       _("QUICK SWIM")
++#define TEXT_OPT_SPA      _("SPAWNER")
++#define TEXT_OPT_WING_CAP    _("GET WING CAP")
++#define TEXT_OPT_METAL_CAP    _("GET METAL CAP")
++#define TEXT_OPT_VANISH_CAP    _("GET VANISH CAP")
++#define TEXT_OPT_REMOVE_CAP    _("REMOVE CAP")
++#define TEXT_OPT_NORMAL_CAP    _("RESET CAP")
++#define TEXT_OPT_BLJ   _("BLJ ANYWHERE")
++#define TEXT_OPT_FLY _("FLYER")
++#define TEXT_OPT_FLJ _("FLJ")
++
++#define TEXT_OPT_SS1   _("NORMAL")
++#define TEXT_OPT_SS2   _("SLOW")
++#define TEXT_OPT_SS3   _("SLOWER")
++#define TEXT_OPT_SS4   _("FAST")
++#define TEXT_OPT_SS5   _("FASTER")
++
++#define TEXT_OPT_SPAMCHT1  _("DISABLED")
++#define TEXT_OPT_SPAMCHT2  _("AMP")
++#define TEXT_OPT_SPAMCHT3  _("BOWLING BALL")
++#define TEXT_OPT_SPAMCHT4  _("BREAKABLE BOX")
++#define TEXT_OPT_SPAMCHT5  _("BREAKABLE BOX SMALL")
++#define TEXT_OPT_SPAMCHT6  _("JUMPING BOX")
++#define TEXT_OPT_SPAMCHT7 _("HEART")
++
++#define TEXT_OPT_BLJCHT1  _("DISABLED")
++#define TEXT_OPT_BLJCHT2  _("ENABLED")
++#define TEXT_OPT_BLJCHT3  _("ENABLED - BOOST: 1")
++#define TEXT_OPT_BLJCHT4  _("ENABLED - BOOST: 2")
++#define TEXT_OPT_BLJCHT5  _("ENABLED - BOOST: 3")
++#define TEXT_OPT_BLJCHT6  _("ENABLED - BOOST: 4")
++#define TEXT_OPT_BLJCHT7  _("ENABLED - BOOST: 5")
++#define TEXT_OPT_BLJCHT8  _("RAPID FIRE")
++#define TEXT_OPT_BLJCHT9  _("RAPID FIRE - BOOST: 1")
++#define TEXT_OPT_BLJCHT10 _("RAPID FIRE - BOOST: 2")
++#define TEXT_OPT_BLJCHT11 _("RAPID FIRE - BOOST: 3")
++#define TEXT_OPT_BLJCHT12 _("RAPID FIRE - BOOST: 4")
++#define TEXT_OPT_BLJCHT13 _("RAPID FIRE - BOOST: 5")
+ 
+ #else // VERSION
+@@ -141,12 +185,56 @@
+ 
+ #define TEXT_OPT_CHEAT1    _("Enable cheats")
+-#define TEXT_OPT_CHEAT2    _("Moonjump (Press L)")
++#define TEXT_OPT_CHEAT2    _("Moonjump (Press Ｌ)")
+ #define TEXT_OPT_CHEAT3    _("Invincible Mario")
+ #define TEXT_OPT_CHEAT4    _("Infinite lives")
+ #define TEXT_OPT_CHEAT5    _("Super speed")
+ #define TEXT_OPT_CHEAT6    _("Super responsive controls")
+-#define TEXT_OPT_CHEAT7    _("Exit course at any time")
+-#define TEXT_OPT_CHEAT8    _("Huge Mario")
+-#define TEXT_OPT_CHEAT9    _("Tiny Mario")
++#define TEXT_OPT_MOON      _("Moon Gravity")
++#define TEXT_OPT_RUN       _("Run Speed Modifier")
++#define TEXT_OPT_JUMP      _("All Jumps Higher")
++#define TEXT_OPT_SPDDSP    _("Speed Display")
++#define TEXT_OPT_QUIKEND   _("Quick Ending")
++#define TEXT_OPT_AWK       _("AutoWallKick")
++#define TEXT_OPT_COIN     _("Get Coins (Hold [B])")
++#define TEXT_OPT_SHELL     _("Get Shell Ｌ & [R]")
++#define TEXT_OPT_BOB       _("Get Bobomb Ｌ & [B]")
++#define TEXT_OPT_SWIM      _("Swift Swim")
++#define TEXT_OPT_SPA     _("Spamba Ｌ & [Z]")
++#define TEXT_OPT_WING_CAP  _("Get WING Cap")
++#define TEXT_OPT_METAL_CAP _("Get METAL Cap")
++#define TEXT_OPT_VANISH_CAP _("Get VANISH Cap")
++#define TEXT_OPT_REMOVE_CAP _("REMOVE Cap")
++#define TEXT_OPT_NORMAL_CAP _("RESET Cap")
++#define TEXT_OPT_BLJ       _("BLJ Anywhere")
++#define TEXT_OPT_FLY _("FLYER")
++#define TEXT_OPT_FLJ _("FLJ")
++
++#define TEXT_OPT_SS1   _("Normal")
++#define TEXT_OPT_SS2   _("Slow")
++#define TEXT_OPT_SS3   _("Slower")
++#define TEXT_OPT_SS4   _("Fast")
++#define TEXT_OPT_SS5   _("Faster")
++
++#define TEXT_OPT_SPAMCHT1  _("Disabled")
++#define TEXT_OPT_SPAMCHT2  _("Amp")
++#define TEXT_OPT_SPAMCHT3  _("Bowling Ball")
++#define TEXT_OPT_SPAMCHT4  _("Large Box")
++#define TEXT_OPT_SPAMCHT5  _("Small Box")
++#define TEXT_OPT_SPAMCHT6  _("Jumping Box")
++#define TEXT_OPT_SPAMCHT7 _("Heart")
++
++#define TEXT_OPT_BLJCHT1  _("Disabled")
++#define TEXT_OPT_BLJCHT2  _("Enabled")
++#define TEXT_OPT_BLJCHT3  _("Enabled - Boost: 1")
++#define TEXT_OPT_BLJCHT4  _("Enabled - Boost: 2")
++#define TEXT_OPT_BLJCHT5  _("Enabled - Boost: 3")
++#define TEXT_OPT_BLJCHT6  _("Enabled - Boost: 4")
++#define TEXT_OPT_BLJCHT7  _("Enabled - Boost: 5")
++#define TEXT_OPT_BLJCHT8  _("Rapid Fire")
++#define TEXT_OPT_BLJCHT9  _("Rapid Fire - Boost: 1")
++#define TEXT_OPT_BLJCHT10 _("Rapid Fire - Boost: 2")
++#define TEXT_OPT_BLJCHT11 _("Rapid Fire - Boost: 3")
++#define TEXT_OPT_BLJCHT12 _("Rapid Fire - Boost: 4")
++#define TEXT_OPT_BLJCHT13 _("Rapid Fire - Boost: 5")
+ 
+ #define TEXT_OPT_LUIGISND  _("Luigi Sounds")
+diff --git a/levels/bowser_1/script.c b/levels/bowser_1/script.c
+index eb7e5191..10da1481 100644
+--- a/levels/bowser_1/script.c
++++ b/levels/bowser_1/script.c
+@@ -23,6 +23,9 @@ const LevelScript level_bowser_1_entry[] = {
+     LOAD_MIO0(/*seg*/ 0x06, _group12_mio0SegmentRomStart, _group12_mio0SegmentRomEnd),
+     LOAD_RAW( /*seg*/ 0x0D, _group12_geoSegmentRomStart, _group12_geoSegmentRomEnd),
++    LOAD_MIO0(/*seg*/ 0x08, _common0_mio0SegmentRomStart, _common0_mio0SegmentRomEnd),
++    LOAD_RAW(/*seg*/ 0x0F, _common0_geoSegmentRomStart, _common0_geoSegmentRomEnd),
+     ALLOC_LEVEL_POOL(),
+-    MARIO(/*model*/ MODEL_MARIO,  /*behParam*/ 0x00000001, /*beh*/ bhvMario),
++    MARIO(/*model*/ MODEL_MARIO, /*behParam*/ 0x00000001, /*beh*/ bhvMario),
++    JUMP_LINK(script_func_global_1),
+     JUMP_LINK(script_func_global_13),
+     LOAD_MODEL_FROM_GEO(MODEL_LEVEL_GEOMETRY_03, bowser_1_yellow_sphere_geo),
+diff --git a/levels/bowser_2/script.c b/levels/bowser_2/script.c
+index 6542aa3f..984dfded 100644
+--- a/levels/bowser_2/script.c
++++ b/levels/bowser_2/script.c
+@@ -33,6 +33,9 @@ const LevelScript level_bowser_2_entry[] = {
+     LOAD_MIO0(        /*seg*/ 0x06, _group12_mio0SegmentRomStart, _group12_mio0SegmentRomEnd),
+     LOAD_RAW(         /*seg*/ 0x0D, _group12_geoSegmentRomStart, _group12_geoSegmentRomEnd),
++    LOAD_MIO0(        /*seg*/ 0x08, _common0_mio0SegmentRomStart, _common0_mio0SegmentRomEnd),
++    LOAD_RAW(         /*seg*/ 0x0F, _common0_geoSegmentRomStart, _common0_geoSegmentRomEnd),
+     ALLOC_LEVEL_POOL(),
+-    MARIO(/*model*/ MODEL_MARIO,  /*behParam*/ 0x00000001, /*beh*/ bhvMario),
++    MARIO(/*model*/ MODEL_MARIO, /*behParam*/ 0x00000001, /*beh*/ bhvMario),
++    JUMP_LINK(script_func_global_1),
+     JUMP_LINK(script_func_global_13),
+     LOAD_MODEL_FROM_GEO(MODEL_BOWSER_2_TILTING_ARENA, bowser_2_geo_000170),
+diff --git a/levels/bowser_3/script.c b/levels/bowser_3/script.c
+index a594eb79..c87e6a5c 100644
+--- a/levels/bowser_3/script.c
++++ b/levels/bowser_3/script.c
+@@ -41,6 +41,9 @@ const LevelScript level_bowser_3_entry[] = {
+     LOAD_RAW( /*seg*/ 0x0D, _group12_geoSegmentRomStart,  _group12_geoSegmentRomEnd),
+     LOAD_MIO0(/*seg*/ 0x0A, _bits_skybox_mio0SegmentRomStart, _bits_skybox_mio0SegmentRomEnd),
++    LOAD_MIO0(/*seg*/ 0x08, _common0_mio0SegmentRomStart, _common0_mio0SegmentRomEnd),
++    LOAD_RAW(/*seg*/ 0x0F, _common0_geoSegmentRomStart, _common0_geoSegmentRomEnd),
+     ALLOC_LEVEL_POOL(),
+-    MARIO(/*model*/ MODEL_MARIO,  /*behParam*/ 0x00000001, /*beh*/ bhvMario),
++    MARIO(/*model*/ MODEL_MARIO, /*behParam*/ 0x00000001, /*beh*/ bhvMario),
++    JUMP_LINK(script_func_global_1),
+     JUMP_LINK(script_func_global_13),
+     LOAD_MODEL_FROM_GEO(MODEL_BOWSER_3_FALLING_PLATFORM_1,  bowser_3_geo_000290),
+diff --git a/levels/castle_inside/script.c b/levels/castle_inside/script.c
+index 528ec2f7..1792886e 100644
+--- a/levels/castle_inside/script.c
++++ b/levels/castle_inside/script.c
+@@ -226,6 +226,9 @@ const LevelScript level_castle_inside_entry[] = {
+     LOAD_MIO0(        /*seg*/ 0x06, _group15_mio0SegmentRomStart, _group15_mio0SegmentRomEnd),
+     LOAD_RAW(         /*seg*/ 0x0D, _group15_geoSegmentRomStart,  _group15_geoSegmentRomEnd),
++    LOAD_MIO0(        /*seg*/ 0x08, _common0_mio0SegmentRomStart, _common0_mio0SegmentRomEnd),
++    LOAD_RAW(         /*seg*/ 0x0F, _common0_geoSegmentRomStart, _common0_geoSegmentRomEnd),
+     ALLOC_LEVEL_POOL(),
+-    MARIO(/*model*/ MODEL_MARIO,  /*behParam*/ 0x00000001, /*beh*/ bhvMario),
++    MARIO(/*model*/ MODEL_MARIO, /*behParam*/ 0x00000001, /*beh*/ bhvMario),
++    JUMP_LINK(script_func_global_1),
+     JUMP_LINK(script_func_global_16),
+     LOAD_MODEL_FROM_GEO(MODEL_CASTLE_BOWSER_TRAP,        castle_geo_000F18),
+diff --git a/src/game/mario.c b/src/game/mario.c
+index 0e10061a..d005d2bd 100644
+--- a/src/game/mario.c
++++ b/src/game/mario.c
+@@ -28,4 +28,5 @@
+ #include "mario_actions_stationary.h"
+ #include "mario_actions_submerged.h"
++#include "mario_cheats.h"
+ #include "mario_misc.h"
+ #include "mario_step.h"
+@@ -921,5 +922,5 @@ static u32 set_mario_action_airborne(struct MarioState *m, u32 action, u32 actio
+             //! (BLJ's) This properly handles long jumps from getting forward speed with
+             //  too much velocity, but misses backwards longs allowing high negative speeds.
+-            if ((m->forwardVel *= 1.5f) > 48.0f) {
++            if ((m->forwardVel *= 1.5f) > 48.0f && !(Cheats.EnableCheats && Cheats.FLJ)) {
+                 m->forwardVel = 48.0f;
+             }
+@@ -1480,4 +1481,6 @@ void update_mario_inputs(struct MarioState *m) {
+     debug_print_speed_action_normal(m);
+ 
++    cheats_mario_inputs(m);
++
+     /* Moonjump cheat */
+     while (Cheats.MoonJump == true && Cheats.EnableCheats == true && m->controller->buttonDown & L_TRIG ){
+diff --git a/src/game/mario_actions_airborne.c b/src/game/mario_actions_airborne.c
+index cbaf53ac..bbd22100 100644
+--- a/src/game/mario_actions_airborne.c
++++ b/src/game/mario_actions_airborne.c
+@@ -12,5 +12,7 @@
+ #include "level_update.h"
+ #include "mario.h"
++#include "mario_cheats.h"
+ #include "mario_step.h"
++#include "pc/cheats.h"
+ #include "save_file.h"
+ #include "thread6.h"
+@@ -337,4 +339,10 @@ void update_flying(struct MarioState *m) {
+     update_flying_yaw(m);
+ 
++    /*Flyer Cheat*/
++    if (Cheats.Fly) {
++        if (m->forwardVel < 30.0f) {
++            m->forwardVel += 2.0f;
++        }
++    }
+     m->forwardVel -= 2.0f * ((f32) m->faceAngle[0] / 0x4000) + 0.1f;
+     m->forwardVel -= 0.5f * (1.0f - coss(m->angleVel[1]));
+@@ -381,4 +389,6 @@ u32 common_air_action_step(struct MarioState *m, u32 landAction, s32 animation,
+     switch (stepResult) {
+         case AIR_STEP_NONE:
++            // BLJ anywhere cheat
++            cheats_air_step(m);
+             set_mario_animation(m, animation);
+             break;
+diff --git a/src/game/mario_actions_moving.c b/src/game/mario_actions_moving.c
+index cd34fe0c..59d6996a 100644
+--- a/src/game/mario_actions_moving.c
++++ b/src/game/mario_actions_moving.c
+@@ -6,4 +6,5 @@
+ #include "engine/math_util.h"
+ #include "engine/surface_collision.h"
++#include "mario_cheats.h"
+ #include "mario_step.h"
+ #include "area.h"
+@@ -1866,5 +1867,5 @@ s32 act_long_jump_land(struct MarioState *m) {
+     }
+ #endif
+-
++    cheats_long_jump(m);
+     if (!(m->input & INPUT_Z_DOWN)) {
+         m->input &= ~INPUT_A_PRESSED;
+diff --git a/src/game/mario_actions_submerged.c b/src/game/mario_actions_submerged.c
+index 6909c69e..59f82e24 100644
+--- a/src/game/mario_actions_submerged.c
++++ b/src/game/mario_actions_submerged.c
+@@ -11,4 +11,5 @@
+ #include "interaction.h"
+ #include "mario.h"
++#include "mario_cheats.h"
+ #include "mario_step.h"
+ #include "camera.h"
+@@ -234,4 +235,6 @@ static void update_swimming_speed(struct MarioState *m, f32 decelThreshold) {
+     f32 maxSpeed = 28.0f;
+ 
++    cheats_swimming_speed(m);
++
+     if (m->action & ACT_FLAG_STATIONARY) {
+         m->forwardVel -= 2.0f;
+diff --git a/src/game/mario_cheats.c b/src/game/mario_cheats.c
+new file mode 100644
+index 00000000..7428d6b9
+--- /dev/null
++++ b/src/game/mario_cheats.c
+@@ -0,0 +1,418 @@
++#include <PR/ultratypes.h>
++
++#include "sm64.h"
++#include "area.h"
++#include "actors/common0.h"
++#include "audio/data.h"
++#include "audio/external.h"
++#include "behavior_actions.h"
++#include "behavior_data.h"
++#include "camera.h"
++#include "engine/behavior_script.h"
++#include "engine/graph_node.h"
++#include "engine/level_script.h"
++#include "engine/math_util.h"
++#include "engine/surface_collision.h"
++#include "game_init.h"
++#include "interaction.h"
++#include "level_table.h"
++#include "level_update.h"
++#include "main.h"
++#include "mario.h"
++#include "mario_actions_airborne.h"
++#include "mario_actions_automatic.h"
++#include "mario_actions_cutscene.h"
++#include "mario_actions_moving.h"
++#include "mario_actions_object.h"
++#include "mario_actions_stationary.h"
++#include "mario_actions_submerged.h"
++#include "mario_cheats.h"
++#include "mario_misc.h"
++#include "mario_step.h"
++#include "memory.h"
++#include "model_ids.h"
++#include "object_fields.h"
++#include "object_helpers.h"
++#include "object_list_processor.h"
++#include "print.h"
++#include "rendering_graph_node.h"
++#include "save_file.h"
++#include "seq_ids.h"
++#include "sound_init.h"
++#include "debug.h"
++#include "thread6.h"
++#include "pc/configfile.h"
++#include "pc/cheats.h"
++
++#define SwiftSwim 42.0f
++
++//// COOP
++#include "pc/network/network.h"
++
++static void __attribute__((constructor)) _register_cheater_mod() {
++    network_register_mod("cheater v3");
++}
++
++static void cheats_reserve_packets(void) {
++    static u8 reservedPackets = FALSE;
++    if (reservedPackets) { return; }
++    reservedPackets = TRUE;
++}
++//#else static void cheats_reserve_packets(void) { }
++//
++
++/*SwiftSwim Cheat*/
++void cheats_swimming_speed(struct MarioState* m) {
++    while (m->forwardVel < SwiftSwim && Cheats.EnableCheats == true && Cheats.Swim == true) {
++        while (m->controller->buttonDown & A_BUTTON) {
++            m->particleFlags |= PARTICLE_BUBBLE;
++            m->forwardVel += 5.0f;
++            break;
++        }
++        break;
++    }
++}
++
++/*BLJAnywhere Cheat*/
++void cheats_air_step(struct MarioState *m) {
++    if (Cheats.BLJAnywhere > 0 && Cheats.EnableCheats == TRUE && m->action == ACT_LONG_JUMP
++        && m->forwardVel < 1.0f && m->pos[1] - 50.0f < m->floorHeight) {
++        if (Cheats.BLJAnywhere < 7) {
++            if (m->controller->buttonPressed & A_BUTTON) {
++                m->forwardVel -= (Cheats.BLJAnywhere - 1) * 2.5f;
++                m->vel[1] = -50.0f;
++            }
++        } else if (m->controller->buttonDown & A_BUTTON) {
++            m->forwardVel -= (Cheats.BLJAnywhere - 7) * 2.5f;
++            m->vel[1] = -50.0f;
++        }
++    }
++}
++
++void cheats_long_jump(struct MarioState *m) {
++    if (Cheats.BLJAnywhere >= 7 && Cheats.EnableCheats == true && m->forwardVel < 1.0f
++        && (m->controller->buttonDown & A_BUTTON)) {
++        set_jumping_action(m, ACT_LONG_JUMP, 0);
++    }
++}
++
++/*Main cheat function*/
++void cheats_mario_inputs(struct MarioState* m) {
++    //// COOP
++    if (m->playerIndex != 0) {
++        return;
++    }
++    cheats_reserve_packets();
++    ////
++    if (gTimeStopState &= TIME_STOP_MARIO_AND_DOORS) {
++        return;
++    }
++    m->particleFlags = 0;
++    m->collidedObjInteractTypes = m->marioObj->collidedObjInteractTypes;
++    m->flags &= 0xFFFFFF;
++    struct Object* o = gCurrentObject->parentObj;
++
++    while (Cheats.EnableCheats == true) {
++
++        /*Moon Gravity*/
++        while (Cheats.Moon) {
++            while ((m->action & ACT_GROUP_MASK) == ACT_GROUP_AIRBORNE) {
++                if (m->action != ACT_FREEFALL && m->action != ACT_LONG_JUMP) {
++                    m->vel[1] += 2;
++                    break;
++                } else {
++                    m->vel[1] += 1;
++                    break;
++                }
++                break;
++            }
++            break;
++        }
++
++        /*Jump Modifier*/
++        while (Cheats.Jump) {
++            while ((m->action & ACT_GROUP_MASK) == ACT_GROUP_AIRBORNE) {
++                if (m->action != ACT_FREEFALL) {
++                    m->vel[1] += 1;
++                    break;
++                }
++                if (m->action &= ACT_FREEFALL) {
++                    m->vel[1] -= 5;
++                    break;
++                }
++                break;
++            }
++            break;
++        }
++
++        /*Run Modifier Cheat*/
++        switch (Cheats.Run) {
++            case 0:
++                break;
++            case 1:
++                if (m->action == ACT_WALKING && m->forwardVel >= 0) {
++                    m->forwardVel = (m->forwardVel - 0.5f);
++                }
++                break;
++            case 2:
++                if (m->action == ACT_WALKING && m->forwardVel >= 0) {
++                    m->forwardVel = (m->forwardVel - 0.7f);
++                }
++                break;
++            case 3:
++                if (m->action == ACT_WALKING && m->forwardVel >= 0) {
++                    m->forwardVel = (m->forwardVel * 1.2f);
++                }
++                break;
++            case 4:
++                if (m->action == ACT_WALKING && m->forwardVel >= 0) {
++                    m->forwardVel = (m->forwardVel * 1.8f);
++                }
++                break;
++        }
++
++        /*Speed Display*/
++        if (Cheats.SPD == true) {
++            print_text_fmt_int(210, 72, "%d", m->forwardVel);
++            print_text_fmt_int(210, 56, "%d", gMarioStates[1].forwardVel);
++        }
++
++        /*QuickEnding cheat*/
++        while (Cheats.QuikEnd == true) {
++            if (m->numStars == 120) {
++                level_trigger_warp(m, WARP_OP_CREDITS_START);
++                Cheats.QuikEnd = false;
++                save_file_do_save(gCurrSaveFileNum - 1, FALSE);
++            }
++            break;
++        }
++
++        /*AutoWallKick cheat*/
++        if (Cheats.AutoWK == true && m->action == ACT_AIR_HIT_WALL) {
++            m->vel[1] = 52.0f;
++            m->faceAngle[1] += 0x8000;
++            set_mario_action(m, ACT_WALL_KICK_AIR, 0);
++            m->wallKickTimer = 0;
++            set_mario_animation(m, MARIO_ANIM_START_WALLKICK);
++        }
++
++        /*Coin cheat*/
++        if (Cheats.Coin == true && m->controller->buttonDown & B_BUTTON) {
++            struct Object *coin =
++                spawn_object_relative(0, 0, 0, 0, m->marioObj, MODEL_YELLOW_COIN, bhvSingleCoinGetsSpawned);
++            //// COOP
++            coin->oSyncID = 0;
++            coin->parentObj = coin;
++            network_set_sync_id(coin);
++            struct Object *spawn_objects[] = { coin };
++            u32 models[] = { MODEL_YELLOW_COIN };
++            network_send_spawn_objects(spawn_objects, models, 1);
++            ////
++            break;
++        }
++
++        /*InstantDeath cheat*/
++        if (m->controller->buttonDown & L_TRIG && m->controller->buttonDown & A_BUTTON
++            && m->controller->buttonPressed & B_BUTTON && m->controller->buttonDown & R_TRIG
++            && m->controller->buttonDown & Z_TRIG) {
++            level_trigger_warp(m, WARP_OP_DEATH);
++            break;
++        }
++
++        /*CAP Cheats*/
++        if (Cheats.EnableCheats) {
++            if (Cheats.WingCap) {
++                m->flags |= MARIO_WING_CAP;
++                if ((m->action & ACT_GROUP_MASK) == (!(ACT_GROUP_AIRBORNE) && !(ACT_GROUP_SUBMERGED))) {
++                    set_mario_action(m, ACT_PUTTING_ON_CAP, 0);
++                }
++                Cheats.WingCap = false;
++            }
++
++            if (Cheats.MetalCap) {
++                m->flags |= MARIO_METAL_CAP;
++                if ((m->action & ACT_GROUP_MASK) == (!(ACT_GROUP_AIRBORNE) && !(ACT_GROUP_SUBMERGED))) {
++                    set_mario_action(m, ACT_PUTTING_ON_CAP, 0);
++                }
++                Cheats.MetalCap = false;
++            }
++
++            if (Cheats.VanishCap) {
++                m->flags |= MARIO_VANISH_CAP;
++                if ((m->action & ACT_GROUP_MASK) == (!(ACT_GROUP_AIRBORNE) && !(ACT_GROUP_SUBMERGED))) {
++                    set_mario_action(m, ACT_PUTTING_ON_CAP, 0);
++                }
++                Cheats.VanishCap = false;
++            }
++
++            if (Cheats.RemoveCap) {
++                m->flags &= ~MARIO_CAP_ON_HEAD;
++                m->flags |= MARIO_CAP_IN_HAND;
++                if ((m->action & ACT_GROUP_MASK) == (!(ACT_GROUP_AIRBORNE) && !(ACT_GROUP_SUBMERGED))) {
++                    set_mario_action(m, ACT_SHIVERING, 0);
++                }
++                Cheats.RemoveCap = false;
++            }
++
++            if (Cheats.NormalCap) {
++                m->flags &= ~MARIO_CAP_ON_HEAD;
++                m->flags &= ~(MARIO_WING_CAP | MARIO_METAL_CAP | MARIO_VANISH_CAP);
++                if ((m->action & ACT_GROUP_MASK) == (!(ACT_GROUP_AIRBORNE) && !(ACT_GROUP_SUBMERGED))) {
++                    m->flags |= MARIO_CAP_IN_HAND;
++                    set_mario_action(m, ACT_PUTTING_ON_CAP, 0);
++                }
++                else {
++                    m->flags &= ~MARIO_CAP_IN_HAND;
++                    m->flags |= MARIO_CAP_ON_HEAD;
++                }
++                stop_cap_music();
++                Cheats.NormalCap = false;
++            }
++        }
++
++        /* GetShell cheat */
++        while (Cheats.GetShell == true && m->controller->buttonDown & L_TRIG
++            && m->controller->buttonPressed & R_TRIG) {
++
++            if ((m->action & ACT_GROUP_MASK) == ACT_GROUP_SUBMERGED) {
++                struct Object* shellu = spawn_object_relative(0, 0, 100, 100, o, MODEL_KOOPA_SHELL,
++                    bhvKoopaShellUnderwater);
++                obj_copy_behavior_params(shellu, o);
++                shellu->oSyncID = 0;
++                shellu->parentObj = shellu;
++                network_set_sync_id(shellu);
++                struct Object* spawn_objects[] = { shellu };
++                u32 models[] = { MODEL_KOOPA_SHELL };
++                network_send_spawn_objects(spawn_objects, models, 1);
++                break;
++            }
++            else {
++                struct Object* shell =
++                    spawn_object_relative(0, 0, 100, 100, o, MODEL_KOOPA_SHELL, bhvKoopaShell);
++                obj_copy_behavior_params(shell, o);
++                //// COOP
++                shell->oSyncID = 0;
++                shell->parentObj = shell;
++                network_set_sync_id(shell);
++                struct Object* spawn_objects[] = { shell };
++                u32 models[] = { MODEL_KOOPA_SHELL };
++                network_send_spawn_objects(spawn_objects, models, 1);
++                break;
++            }
++            break;
++        }
++
++        /* GetBobomb cheat */
++        if (Cheats.GetBob == true) {
++            if (m->controller->buttonDown & L_TRIG && m->controller->buttonPressed & B_BUTTON) {
++                struct Object *bob =
++                    spawn_object_relative(0, 0, 100, 100, o, MODEL_BLACK_BOBOMB, bhvBobomb);
++                set_object_respawn_info_bits(bob, RESPAWN_INFO_DONT_RESPAWN);
++                bob->respawnInfo = 0;
++                obj_copy_behavior_params(bob, o);
++                bob->oSyncID = 0;
++                bob->parentObj = bob;
++                network_set_sync_id(bob);
++                struct Object *spawn_objects[] = { bob };
++                u32 models[] = { MODEL_BLACK_BOBOMB };
++                network_send_spawn_objects(spawn_objects, models, 1);
++            }
++        }
++
++        /* SpawnCommon0 aka Spamba cheat */
++        while (Cheats.Spamba > 0 && m->controller->buttonDown & L_TRIG
++               && m->controller->buttonPressed & Z_TRIG) {
++            if (Cheats.Spamba == 1) {
++                struct Object *amp = spawn_object_relative(0, 0, 100, 100, o, MODEL_AMP, bhvHomingAmp);
++                obj_copy_behavior_params(amp, o);
++
++                // COOP
++                amp->oSyncID = 0;
++                amp->parentObj = amp;
++                network_set_sync_id(amp);
++                struct Object *spawn_objects[] = { amp };
++                u32 models[] = { MODEL_AMP };
++                network_send_spawn_objects(spawn_objects, models, 1);
++                //
++
++                break;
++            }
++
++            if (Cheats.Spamba == 2) {
++                struct Object *bowl =
++                    spawn_object_relative(0, 0, 300, 300, o, MODEL_BOWLING_BALL, bhvPitBowlingBall);
++                obj_copy_behavior_params(bowl, o);
++                //// COOP
++                bowl->oSyncID = 0;
++                bowl->parentObj = bowl;
++                network_set_sync_id(bowl);
++                struct Object *spawn_objects[] = { bowl };
++                u32 models[] = { MODEL_BOWLING_BALL };
++                network_send_spawn_objects(spawn_objects, models, 1);
++                ////
++                break;
++            }
++
++            if (Cheats.Spamba == 3) {
++                struct Object *bigbox =
++                    spawn_object_relative(0, 0, 0, 300, o, MODEL_BREAKABLE_BOX, bhvBreakableBox);
++                obj_copy_behavior_params(bigbox, o);
++                //// COOP
++                bigbox->oSyncID = 0;
++                bigbox->parentObj = bigbox;
++                network_set_sync_id(bigbox);
++                struct Object *spawn_objects[] = { bigbox };
++                u32 models[] = { MODEL_BREAKABLE_BOX };
++                network_send_spawn_objects(spawn_objects, models, 1);
++                ////
++                break;
++            }
++
++            if (Cheats.Spamba == 4) {
++                struct Object *smallbox = spawn_object_relative(
++                    0, 0, 50, 100, o, MODEL_BREAKABLE_BOX_SMALL, bhvBreakableBoxSmall);
++                obj_copy_behavior_params(smallbox, o);
++                //// COOP
++                smallbox->oSyncID = 0;
++                smallbox->parentObj = smallbox;
++                network_set_sync_id(smallbox);
++                struct Object *spawn_objects[] = { smallbox };
++                u32 models[] = { MODEL_BREAKABLE_BOX_SMALL };
++                network_send_spawn_objects(spawn_objects, models, 1);
++                ////
++                break;
++            }
++
++            if (Cheats.Spamba == 5) {
++                struct Object *jumpbox =
++                    spawn_object_relative(0, 0, 10, 100, o, MODEL_BREAKABLE_BOX, bhvJumpingBox);
++                obj_copy_behavior_params(jumpbox, o);
++                // COOP
++                jumpbox->oSyncID = 0;
++                jumpbox->parentObj = jumpbox;
++                network_set_sync_id(jumpbox);
++                struct Object *spawn_objects[] = { jumpbox };
++                u32 models[] = { MODEL_BREAKABLE_BOX_SMALL };
++                network_send_spawn_objects(spawn_objects, models, 1);
++                //
++                break;
++            }
++
++            if (Cheats.Spamba == 6) {
++                struct Object *heart =
++                    spawn_object_relative(0, 0, 100, 100, o, MODEL_HEART, bhvRecoveryHeart);
++                obj_copy_behavior_params(heart, o);
++                // COOP
++                heart->oSyncID = 0;
++                heart->parentObj = heart;
++                network_set_sync_id(heart);
++                struct Object *spawn_objects[] = { heart };
++                u32 models[] = { MODEL_HEART };
++                network_send_spawn_objects(spawn_objects, models, 1);
++                //
++                break;
++            }
++        }
++        break;
++    }
++}
+diff --git a/src/game/mario_cheats.h b/src/game/mario_cheats.h
+new file mode 100644
+index 00000000..5ac18318
+--- /dev/null
++++ b/src/game/mario_cheats.h
+@@ -0,0 +1,15 @@
++#ifndef MARIO_CHEATS_H
++#define MARIO_CHEATS_H
++
++#include <PR/ultratypes.h>
++
++#include "macros.h"
++#include "types.h"
++
++void cheats_set_model(struct MarioState *m);
++void cheats_swimming_speed(struct MarioState *m);
++void cheats_air_step(struct MarioState *m);
++void cheats_long_jump(struct MarioState *m);
++void cheats_mario_inputs(struct MarioState *m);
++
++#endif // MARIO_CHEATS_H
+diff --git a/src/game/options_menu.c b/src/game/options_menu.c
+index c8e0ecce..04f1b6ed 100644
+--- a/src/game/options_menu.c
++++ b/src/game/options_menu.c
+@@ -101,7 +101,91 @@ static const u8 optsCheatsStr[][64] = {
+     { TEXT_OPT_CHEAT5 },
+     { TEXT_OPT_CHEAT6 },
+-    { TEXT_OPT_CHEAT7 },
+-    { TEXT_OPT_CHEAT8 },
+-    { TEXT_OPT_CHEAT9 },
++    { TEXT_OPT_MOON },
++    { TEXT_OPT_RUN },
++    { TEXT_OPT_JUMP },
++    { TEXT_OPT_SPDDSP },
++    { TEXT_OPT_QUIKEND },
++    { TEXT_OPT_AWK },
++    { TEXT_OPT_COIN },
++    { TEXT_OPT_SHELL },
++    { TEXT_OPT_BOB },
++    { TEXT_OPT_SWIM },
++    { TEXT_OPT_SPA },
++    { TEXT_OPT_WING_CAP },
++    { TEXT_OPT_METAL_CAP },
++    { TEXT_OPT_VANISH_CAP },
++    { TEXT_OPT_REMOVE_CAP },
++    { TEXT_OPT_NORMAL_CAP },
++    { TEXT_OPT_BLJ },
++    { TEXT_OPT_FLY },
++    { TEXT_OPT_FLJ },
++};
++
++static const u8 optsSpeedStr[][16] = {
++    { TEXT_OPT_SS1 },
++    { TEXT_OPT_SS2 },
++    { TEXT_OPT_SS3 },
++    { TEXT_OPT_SS4 },
++    { TEXT_OPT_SS5 },
++};
++
++static const u8 optsSpamCheatStr[][32] = {
++    { TEXT_OPT_SPAMCHT1 },
++    { TEXT_OPT_SPAMCHT2 },
++    { TEXT_OPT_SPAMCHT3 },
++    { TEXT_OPT_SPAMCHT4 },
++    { TEXT_OPT_SPAMCHT5 },
++    { TEXT_OPT_SPAMCHT6 },
++    { TEXT_OPT_SPAMCHT7 },
++};
++
++static const u8 optsBLJCheatStr[][32] = {
++    { TEXT_OPT_BLJCHT1 },
++    { TEXT_OPT_BLJCHT2 },
++    { TEXT_OPT_BLJCHT3 },
++    { TEXT_OPT_BLJCHT4 },
++    { TEXT_OPT_BLJCHT5 },
++    { TEXT_OPT_BLJCHT6 },
++    { TEXT_OPT_BLJCHT7 },
++    { TEXT_OPT_BLJCHT8 },
++    { TEXT_OPT_BLJCHT9 },
++    { TEXT_OPT_BLJCHT10 },
++    { TEXT_OPT_BLJCHT11 },
++    { TEXT_OPT_BLJCHT12 },
++    { TEXT_OPT_BLJCHT13 },
++};
++
++static const u8 *SpeedChoices[] = {
++    optsSpeedStr[0],
++    optsSpeedStr[1],
++    optsSpeedStr[2],
++    optsSpeedStr[3],
++    optsSpeedStr[4],
++};
++
++static const u8 *SpamCheatChoices[] = {
++    optsSpamCheatStr[0],
++    optsSpamCheatStr[1],
++    optsSpamCheatStr[2],
++    optsSpamCheatStr[3],
++    optsSpamCheatStr[4],
++    optsSpamCheatStr[5],
++    optsSpamCheatStr[6],
++};
++
++static const u8* bljCheatChoices[] = {
++    optsBLJCheatStr[0],
++    optsBLJCheatStr[1],
++    optsBLJCheatStr[2],
++    optsBLJCheatStr[3],
++    optsBLJCheatStr[4],
++    optsBLJCheatStr[5],
++    optsBLJCheatStr[6],
++    optsBLJCheatStr[7],
++    optsBLJCheatStr[8],
++    optsBLJCheatStr[9],
++    optsBLJCheatStr[10],
++    optsBLJCheatStr[11],
++    optsBLJCheatStr[12],
+ };
+ 
+@@ -220,4 +304,26 @@ static void optvideo_apply(UNUSED struct Option *self, s32 arg) {
+ }
+ 
++
++static void setCap_Wing(UNUSED struct Option *self, s32 arg) {
++    if (!arg) Cheats.WingCap = true;
++}
++static void setCap_Metal(UNUSED struct Option *self, s32 arg) {
++    if (!arg) Cheats.MetalCap = true;
++}
++static void setCap_Vanish(UNUSED struct Option *self, s32 arg) {
++    if (!arg) Cheats.VanishCap = true;
++}
++static void setCap_Remove(UNUSED struct Option *self, s32 arg) {
++    if (!arg) Cheats.RemoveCap = true;
++}
++static void setCap_Normal(UNUSED struct Option *self, s32 arg) {
++    Cheats.WingCap = false;
++    Cheats.MetalCap = false;
++    Cheats.VanishCap = false;
++    Cheats.RemoveCap = false;
++    if (!arg) Cheats.NormalCap = true;
++}
++
++
+ /* submenu option lists */
+ 
+@@ -283,4 +389,23 @@ static struct Option optsCheats[] = {
+     DEF_OPT_TOGGLE( optsCheatsStr[4], &Cheats.SuperSpeed ),
+     DEF_OPT_TOGGLE( optsCheatsStr[5], &Cheats.Responsive ),
++    DEF_OPT_TOGGLE( optsCheatsStr[6], &Cheats.Moon),
++    DEF_OPT_CHOICE( optsCheatsStr[7], &Cheats.Run, SpeedChoices),
++    DEF_OPT_TOGGLE( optsCheatsStr[8], &Cheats.Jump),
++    DEF_OPT_TOGGLE( optsCheatsStr[9], &Cheats.SPD),
++    DEF_OPT_TOGGLE( optsCheatsStr[10], &Cheats.QuikEnd),
++    DEF_OPT_TOGGLE( optsCheatsStr[11], &Cheats.AutoWK),
++    DEF_OPT_TOGGLE( optsCheatsStr[12], &Cheats.Coin),
++    DEF_OPT_TOGGLE( optsCheatsStr[13], &Cheats.GetShell),
++    DEF_OPT_TOGGLE( optsCheatsStr[14], &Cheats.GetBob),
++    DEF_OPT_TOGGLE( optsCheatsStr[15], &Cheats.Swim),
++    DEF_OPT_CHOICE( optsCheatsStr[16], &Cheats.Spamba, SpamCheatChoices),
++    DEF_OPT_BUTTON( optsCheatsStr[17], setCap_Wing),
++    DEF_OPT_BUTTON( optsCheatsStr[18], setCap_Metal),
++    DEF_OPT_BUTTON( optsCheatsStr[19], setCap_Vanish),
++    DEF_OPT_BUTTON( optsCheatsStr[20], setCap_Remove),
++    DEF_OPT_BUTTON( optsCheatsStr[21], setCap_Normal),
++    DEF_OPT_CHOICE( optsCheatsStr[22], &Cheats.BLJAnywhere, bljCheatChoices),
++    DEF_OPT_TOGGLE( optsCheatsStr[23], &Cheats.Fly),
++    DEF_OPT_TOGGLE( optsCheatsStr[24], &Cheats.FLJ),
+ 
+ };
+diff --git a/src/pc/cheats.h b/src/pc/cheats.h
+index 531c392f..81b04e68 100644
+--- a/src/pc/cheats.h
++++ b/src/pc/cheats.h
+@@ -11,4 +11,23 @@ struct CheatList {
+     bool         SuperSpeed;
+     bool         Responsive;
++    bool Moon;
++    unsigned int Run;
++    bool Jump;
++    bool SPD;
++    bool QuikEnd;
++    bool AutoWK;
++    bool Coin;
++    bool GetShell;
++    bool GetBob;
++    bool Swim;
++    unsigned int Spamba;
++    bool WingCap;
++    bool MetalCap;
++    bool VanishCap;
++    bool RemoveCap;
++    bool NormalCap;
++    unsigned int BLJAnywhere;
++    bool Fly;
++    bool FLJ;
+ };
+ 

@@ -1,0 +1,1212 @@
+diff --git a/lang/Czech.ini b/lang/Czech.ini
+index 32c285b2..45a49265 100644
+--- a/lang/Czech.ini
++++ b/lang/Czech.ini
+@@ -319,11 +319,98 @@ BUSY_BEE = "Zaneprázdněná včelka"
+ FORTRESS = "Pevnost"
+ BATTLEMENTS = "Cimbuří"
+ BLUEBERRY_PIE = "Borůvkový koláč"
++COFFEE = "Káva se smetanou"
++NIGHT = "Okraj noci"
+ RASPBERRY = "Ostružina"
+ BUBBLEGUM = "Žvýkačka"
+ ICE_MARIO = "Ledový Mario"
+ ICE_LUIGI = "Ledový Luigi"
++ICE_WALUIGI = "Ledový Waluigi"
++ICE_WARIO = "Ledový Wario"
+ TOAD = "Toad"
++TOADSWORTH = "Toadsworth"
++TOADETTE = "Toadette"
++BUCKEN_BERRY = "Bucken Berry"
++ALA_GOLD = "Ala Gold"
++FIRE_TOADETTE = "Ohnivý Toadette"
++FIRE_BUCKEN_BERRY = "Ohnivý Bucken Berry"
++FIRE_ALA_GOLD = "Ohnivý Ala Gold"
++ICE_TOADETTE = "Ledový Toadette"
++ICE_BUCKEN_BERRY = "Ledový Bucken Berry"
++ICE_ALA_GOLD = "Ledový Ala Gold"
++ONEUP = "1-Up Divit se"
++POISON = "Jedovatá houba"
++FOREMAN = "Rozbíjející Se Předák"
++SERIOUS_BROWN = "Vážně hnědá"
++TRANS = "Trans instalatér"
++JET_BLACK = "Uhlově černá"
++FOREST_GREEN = "Lesní zeleň"
++HAMMER_GRAY = "Kladivo šedé"
++GOLDEN_RACCOON = "Zlatý mýval"
++AUTUMN_DECAY = "Podzimní rozklad"
++LOFI_PASTEL = "Pastelová Lofi"
++SUPERBALL_M = "SuperMíč Mario"
++SUPERBALL_L = "SuperMíč Luigi"
++SUPERBALL_T = "SuperMíč Toad"
++GB = "Game Boy"
++MONOCHROME = "Černobílý"
++SMB1_MARIO = "SMB1 Mario"
++SMB1_LUIGI = "SMB1 Luigi"
++SMB1_FIRE = "SMB1 Ohnivý"
++SMB1_UNDER = "SMB1 Podzemí"
++SMB3_MARIO = "SMB3 Mario"
++SMB3_lUIGI = "SMB3 Luigi"
++SMW_MARIO = "SMW Mario"
++GRAND_DAD = "GRAND DAD"
++WRECKING_GREEN = "Demoliční zeleň"
++CLASSIC = "Klasický Mario"
++DEEP_AZURE = "Hluboký azur"
++SKY_BLUE = "Modrá obloha"
++OLDER_BLUE = "Starší Modrá"
++PINBALL = "Pinball modrý"
++PUMPKIN = "Dýně"
++NOT_CLASSIC = "Vybledlá klasika"
++CLASSIC_L = "Klasický Luigi"
++ANIME = "Anime modré"
++BENTGRASS = "Trávník"
++SAPPHIRE = "Safír"
++TURQUOISE = "Bledě tyrkysová"
++GREEEEEEEEN = "Zelené zelené"
++SCARY_ORANGE = "Strašidelná oranžová"
++GHOSTLY_PINK = "Přízračně růžová"
++YOUNGER_GREEN = "Mladší zelený"
++GALAXY_RED = "Létající Mario"
++GALAXY_GREEN = "Létající Luigi"
++GALAXY_YELLOW = "Létající Wario"
++GALAXY_PURPLE = "Létající Waluigi"
++BUILDER_MARIO = "Stavitel červený"
++BUILDER_LUIGI = "Stavitel zelená"
++SOIL = "Univerzální půda"
++CREVASE = "Studená trhlina"
++LOU_RED = "Lou červený"
++DANNY_GREEN = "Danny zelená"
++ACCOUTREMENTS = "Jemná žlutá"
++CLASSIC_W = "Klasický Wario"
++PURPOSE = "Jeho účel"
++WARIO_WOODS = "Woodsova hrozba"
++PAST_LAND = "Minulá země"
++DARK_CYAN = "Špinavé moře"
++CLASSIC_WL = "Klasický Waluigi"
++TENNIS = "Tenisová modrá"
++BOXING = "Stříbrný boxer"
++SYNTH_PURPLE = "Synthwave fialová"
++CHOCOLATE = "Čokoládově hnědá"
++FOREMAN_2 = "Obrácený předák"
++LOGO64 = "64 Vzpomínek"
++SNES = "Super šeřík"
++SWITCH = "Přepnout neon"
++VB = "Virtuální červená"
++INNOCENCE = "Zlomená nevinnost"
++DISCARDED = "Vyřazená žlutá"
++INTERNAL_PLEXUS = "Plexové peklo"
++URIO = "FREE URIO"
++AIGI = "FREE AIGI"
++ALE_PASTEL = "Pastelová pastelka"
+ CUSTOM = "Vlastní"
+ 
+ [PLAYER_LIST]
+diff --git a/lang/Dutch.ini b/lang/Dutch.ini
+index 53eb4938..02b45e77 100644
+--- a/lang/Dutch.ini
++++ b/lang/Dutch.ini
+@@ -318,10 +318,98 @@ BUSY_BEE = "Bezige Bij"
+ FORTRESS = "Vesting"
+ BATTLEMENTS = "Kantelen"
+ BLUEBERRY_PIE = "Bosbessen taart"
++COFFEE = "Koffie met Melk"
++NIGHT = "Marge Van de Nacht"
+ RASPBERRY = "Framboos"
+ BUBBLEGUM = "Kauwgom"
+ ICE_MARIO = "Ijs Mario"
+ ICE_LUIGI = "Ijs Luigi"
++ICE_WALUIGI = "Ijs Waluigi"
++ICE_WARIO = "Ijs Wario"
++TOAD = "Toad"
++TOADSWORTH = "Toadsworth"
++TOADETTE = "Toadette"
++BUCKEN_BERRY = "Bucken Berry"
++ALA_GOLD = "Ala Gold"
++FIRE_TOADETTE = "Vuur Toadette"
++FIRE_BUCKEN_BERRY = "Vuur Bucken Berry"
++FIRE_ALA_GOLD = "Vuur Ala Gold"
++ICE_TOADETTE = "Ijs Toadette"
++ICE_BUCKEN_BERRY = "Ijs Bucken Berry"
++ICE_ALA_GOLD = "Ijs Ala Gold"
++ONEUP = "1-Up Wonder"
++POISON = "Gif Schimmel"
++FOREMAN = "Verpletterende Voorman"
++SERIOUS_BROWN = "Serieus Bruin"
++TRANS = "Trans Loodgieter"
++JET_BLACK = "Pikzwart"
++FOREST_GREEN = "Bos Groen"
++HAMMER_GRAY = "Hamer Grijs"
++GOLDEN_RACCOON = "Gouden Wasbeer"
++AUTUMN_DECAY = "Herfst Verval"
++LOFI_PASTEL = "Lofi-pastelkleur"
++SUPERBALL_M = "Superbal-Mario"
++SUPERBALL_L = "Superbal-Luigi"
++SUPERBALL_T = "Superbal-Toad"
++GB = "Game Boy"
++MONOCHROME = "Monochrome"
++SMB1_MARIO = "SMB1 Mario"
++SMB1_LUIGI = "SMB1 Luigi"
++SMB1_FIRE = "SMB1 Vuur"
++SMB1_UNDER = "SMB1 Ondergronds"
++SMB3_MARIO = "SMB3 Mario"
++SMB3_lUIGI = "SMB3 Luigi"
++SMW_MARIO = "SMW Mario"
++GRAND_DAD = "GRAND DAD"
++WRECKING_GREEN = "Verwoestend Groen"
++CLASSIC = "Klassieke Mario"
++DEEP_AZURE = "Diep Azuur"
++SKY_BLUE = "Hemelsblauw"
++OLDER_BLUE = "Ouder Blauw"
++PINBALL = "Flipperkast Blauw"
++PUMPKIN = "Pompoen"
++NOT_CLASSIC = "Vervaagde klassieker"
++CLASSIC_L = "Klassieke Luigi"
++ANIME = "Anime Blauw"
++BENTGRASS = "Gras"
++SAPPHIRE = "Saffier"
++TURQUOISE = "Bleek Turkoois"
++GREEEEEEEEN = "Groene Groenen"
++SCARY_ORANGE = "Eng Oranje"
++GHOSTLY_PINK = "Spookachtig Roze"
++YOUNGER_GREEN = "Jonger Groen"
++GALAXY_RED = "Vliegende Mario"
++GALAXY_GREEN = "Vliegende Luigi"
++GALAXY_YELLOW = "Vliegende Wario"
++GALAXY_PURPLE = "Vliegende Waluigi"
++BUILDER_MARIO = "Bouwer Rood"
++BUILDER_LUIGI = "Bouwer Groen"
++SOIL = "Universeel Vuil"
++CREVASE = "Koude Kloof"
++LOU_RED = "Lou Rood"
++DANNY_GREEN = "Danny Groen"
++ACCOUTREMENTS = "Zacht Geel"
++CLASSIC_W = "Klassieke Wario"
++PURPOSE = "Zijn Doel"
++WARIO_WOODS = "Bos Dreiging"
++PAST_LAND = "Verleden Landen"
++DARK_CYAN = "Vuile Zee"
++CLASSIC_WL = "Klassieke Waluigi"
++TENNIS = "Tennisblauw"
++BOXING = "Zilveren Bokser"
++SYNTH_PURPLE = "Synthwave Paars"
++CHOCOLATE = "Chocolade Bruin"
++FOREMAN_2 = "Omgekeerde Voorman"
++LOGO64 = "64 Herinneringen"
++SNES = "Super Lila"
++SWITCH = "Switch Neon"
++VB = "Virtueel Rood"
++INNOCENCE = "Gebroken Onschuld"
++DISCARDED = "Geel Weggegooid"
++INTERNAL_PLEXUS = "Helse Plexus"
++URIO = "FREE URIO"
++AIGI = "FREE AIGI"
++ALE_PASTEL = "Krijt Pastel"
+ CUSTOM = "Aangepast"
+ 
+ [PLAYER_LIST]
+diff --git a/lang/English.ini b/lang/English.ini
+index 95725c63..de94a17d 100644
+--- a/lang/English.ini
++++ b/lang/English.ini
+@@ -319,11 +319,98 @@ BUSY_BEE = "Busy Bee"
+ FORTRESS = "Fortress"
+ BATTLEMENTS = "Battlements"
+ BLUEBERRY_PIE = "Blueberry Pie"
++COFFEE = "Coffee with Cream"
++NIGHT = "Margin of Night"
+ RASPBERRY = "Raspberry"
+ BUBBLEGUM = "Bubblegum"
+ ICE_MARIO = "Ice Mario"
+ ICE_LUIGI = "Ice Luigi"
++ICE_WALUIGI = "Ice Waluigi"
++ICE_WARIO = "Ice Wario"
+ TOAD = "Toad"
++TOADSWORTH = "Toadsworth"
++TOADETTE = "Toadette"
++BUCKEN_BERRY = "Bucken Berry"
++ALA_GOLD = "Ala Gold"
++FIRE_TOADETTE = "Fire Toadette"
++FIRE_BUCKEN_BERRY = "Fire Bucken Berry"
++FIRE_ALA_GOLD = "Fire Ala Gold"
++ICE_TOADETTE = "Ice Toadette"
++ICE_BUCKEN_BERRY = "Ice Bucken Berry"
++ICE_ALA_GOLD = "Ice Ala Gold"
++ONEUP = "1-Up Wonder"
++POISON = "Poison Fungus"
++FOREMAN = "Smashing Foreman"
++SERIOUS_BROWN = "Serious Brown"
++TRANS = "Trans Plumber"
++JET_BLACK = "Jet Black"
++FOREST_GREEN = "Forest Green"
++HAMMER_GRAY = "Hammer Grey"
++GOLDEN_RACCOON = "Golden Raccoon"
++AUTUMN_DECAY = "Autumn Decay"
++LOFI_PASTEL = "Lofi Pastel"
++SUPERBALL_M = "SuperBall Mario"
++SUPERBALL_L = "SuperBall Luigi"
++SUPERBALL_T = "SuperBall Toad"
++GB = "Game Boy"
++MONOCHROME = "Monochrome"
++SMB1_MARIO = "SMB1 Mario"
++SMB1_LUIGI = "SMB1 Luigi"
++SMB1_FIRE = "SMB1 Fire"
++SMB1_UNDER = "SMB1 Underground"
++SMB3_MARIO = "SMB3 Mario"
++SMB3_lUIGI = "SMB3 Luigi"
++SMW_MARIO = "SMW Mario"
++GRAND_DAD = "GRAND DAD"
++WRECKING_GREEN = "Wrecking Green"
++CLASSIC = "Classic Mario"
++DEEP_AZURE = "Deep Azure"
++SKY_BLUE = "Sky Blue"
++OLDER_BLUE = "Older Blue"
++PINBALL = "Pinball Blue"
++PUMPKIN = "Pumpkin"
++NOT_CLASSIC = "Faded Classic"
++CLASSIC_L = "Classic Luigi"
++ANIME = "Anime Blue"
++BENTGRASS = "Bentgrass"
++SAPPHIRE = "Sapphire"
++TURQUOISE = "Pale Turquoise"
++GREEEEEEEEN = "Green Greens"
++SCARY_ORANGE = "Scary Orange"
++GHOSTLY_PINK = "Ghostly Pink"
++YOUNGER_GREEN = "Younger Green"
++GALAXY_RED = "Flying Mario"
++GALAXY_GREEN = "Flying Luigi"
++GALAXY_YELLOW = "Flying Wario"
++GALAXY_PURPLE = "Flying Waluigi"
++BUILDER_MARIO = "Builder Red"
++BUILDER_LUIGI = "Builder Green"
++SOIL = "Universal Soil"
++CREVASE = "Cold Crevasse"
++LOU_RED = "Lou Red"
++DANNY_GREEN = "Danny Green"
++ACCOUTREMENTS = "Soft Yellow"
++CLASSIC_W = "Classic Wario"
++PURPOSE = "His Purpose"
++WARIO_WOODS = "Woods Menace"
++PAST_LAND = "Past Lands"
++DARK_CYAN = "Dirty Sea"
++CLASSIC_WL = "Classic Waluigi"
++TENNIS = "Tennis Navy"
++BOXING = "Silver Boxer"
++SYNTH_PURPLE = "Synthwave Purple"
++CHOCOLATE = "Choco Brown"
++FOREMAN_2 = "Inverted Foreman"
++LOGO64 = "64 Memories"
++SNES = "Super Lilac"
++SWITCH = "Switch Neon"
++VB = "Virtual Red"
++INNOCENCE = "Shattered Innocence"
++DISCARDED = "Discarded Yellow"
++INTERNAL_PLEXUS = "Plexus Inferno"
++URIO = "FREE URIO"
++AIGI = "FREE AIGI"
++ALE_PASTEL = "Crayon Pastel"
+ CUSTOM = "Custom"
+ 
+ [PLAYER_LIST]
+diff --git a/lang/French.ini b/lang/French.ini
+index 58f8d9e9..812febbb 100644
+--- a/lang/French.ini
++++ b/lang/French.ini
+@@ -319,11 +319,98 @@ BUSY_BEE = "Abeille"
+ FORTRESS = "Forteresse"
+ BATTLEMENTS = "Remparts"
+ BLUEBERRY_PIE = "Tarte Myrtilles"
++COFFEE = "Café au Crème"
++NIGHT = "Marge de Nuit"
+ RASPBERRY = "Framboise"
+ BUBBLEGUM = "Bubblegum"
+ ICE_MARIO = "Mario de glace"
+ ICE_LUIGI = "Luigi de glace"
++ICE_WALUIGI = "Waluigi de glace"
++ICE_WARIO = "Wario de glace"
+ TOAD = "Toad"
++TOADSWORTH = "Papy Champi"
++TOADETTE = "Toadette"
++BUCKEN_BERRY = "Bucken Berry"
++ALA_GOLD = "Ala Gold"
++FIRE_TOADETTE = "Toadette de feu"
++FIRE_BUCKEN_BERRY = "Bucken Berry de feu"
++FIRE_ALA_GOLD = "Ala Gold de feu"
++ICE_TOADETTE = "Toadette de glace"
++ICE_BUCKEN_BERRY = "Bucken Berry de glace"
++ICE_ALA_GOLD = "Ala Gold de glace"
++ONEUP = "Champignon 1UP"
++POISON = "Champignon Empoisonné"
++FOREMAN = "Contremaître Fracassant"
++SERIOUS_BROWN = "Brun Sérieux"
++TRANS = "Plombier Trans"
++JET_BLACK = "Noir de Jais"
++FOREST_GREEN = "Forêt Verte"
++HAMMER_GRAY = "Gris Marteau"
++GOLDEN_RACCOON = "Raton-Laveur Doré"
++AUTUMN_DECAY = "Automne"
++LOFI_PASTEL = "Pastel Lofi"
++SUPERBALL_M = "Mario Super Boule"
++SUPERBALL_L = "Luigi Super Boule"
++SUPERBALL_T = "Toad Super Boule"
++GB = "Game Boy"
++MONOCHROME = "Monochrome"
++SMB1_MARIO = "SMB1 Mario"
++SMB1_LUIGI = "SMB1 Luigi"
++SMB1_FIRE = "SMB1 Feu"
++SMB1_UNDER = "SMB1 Souterrain"
++SMB3_MARIO = "SMB3 Mario"
++SMB3_lUIGI = "SMB3 Luigi"
++SMW_MARIO = "SMW Mario"
++GRAND_DAD = "GRAND DAD"
++WRECKING_GREEN = "Démolition Verte"
++CLASSIC = "Mario Classique"
++DEEP_AZURE = "Azur Profond"
++SKY_BLUE = "Bleu Ciel"
++OLDER_BLUE = "Vieux Bleu"
++PINBALL = "Flipper Bleu"
++PUMPKIN = "Citrouille"
++NOT_CLASSIC = "Classique Délavé"
++CLASSIC_L = "Luigi Classique"
++ANIME = "Anime Bleu"
++BENTGRASS = "Agrostide"
++SAPPHIRE = "Saphir"
++TURQUOISE = "Turquoise Pâle"
++GREEEEEEEEN = "Verts Verts"
++SCARY_ORANGE = "Orange Effrayante"
++GHOSTLY_PINK = "Rose Fantomatique"
++YOUNGER_GREEN = "Jeune Vert"
++GALAXY_RED = "Mario Volant"
++GALAXY_GREEN = "Luigi Volant"
++GALAXY_YELLOW = "Wario Volant"
++GALAXY_PURPLE = "Waluigi Volant"
++BUILDER_MARIO = "Constructeur Rouge"
++BUILDER_LUIGI = "Constructeur Vert"
++SOIL = "Saleté Universelle"
++CREVASE = "Crevasse Froide"
++LOU_RED = "Lou Rouge"
++DANNY_GREEN = "Danny Vert"
++ACCOUTREMENTS = "Jaune Doux"
++CLASSIC_W = "Wario Classique"
++PURPOSE = "Son But"
++WARIO_WOODS = "Menace des Bois"
++PAST_LAND = "Terres Passées"
++DARK_CYAN = "Mer Sale"
++CLASSIC_WL = "Waluigi Classique"
++TENNIS = "Tennis Bleu"
++BOXING = "Boxeur Argenté"
++SYNTH_PURPLE = "Synthwave Violet"
++CHOCOLATE = "Chocolat Brun"
++FOREMAN_2 = "Contremaître Inversé"
++LOGO64 = "64 Mémoires"
++SNES = "Super Lilas"
++SWITCH = "Switch Néon"
++VB = "Virtuel Rouge"
++INNOCENCE = "Innocence Brisée"
++DISCARDED = "Jaune Remplacé"
++INTERNAL_PLEXUS = "Enfer du Plexus"
++URIO = "FREE URIO"
++AIGI = "FREE AIGI"
++ALE_PASTEL = "Pastel Crayon"
+ CUSTOM = "Personnalisée"
+ 
+ [PLAYER_LIST]
+diff --git a/lang/German.ini b/lang/German.ini
+index 6865c696..e7d4b276 100644
+--- a/lang/German.ini
++++ b/lang/German.ini
+@@ -319,11 +319,98 @@ BUSY_BEE = "Beschäftigte Biene"
+ FORTRESS = "Festung"
+ BATTLEMENTS = "Battlements"
+ BLUEBERRY_PIE = "Heidelbeerkuchen"
++COFFEE = "Kaffee mit Sahne"
++NIGHT = "Rand der Nacht"
+ RASPBERRY = "Himbeere"
+ BUBBLEGUM = "Kaugummi"
+ ICE_MARIO = "Eis Mario"
+ ICE_LUIGI = "Eis Luigi"
++ICE_WALUIGI = "Eis Waluigi"
++ICE_WARIO = "Eis Wario"
+ TOAD = "Toad"
++TOADSWORTH = "Toadsworth"
++TOADETTE = "Toadette"
++BUCKEN_BERRY = "Bucken Berry"
++ALA_GOLD = "Ala Gold"
++FIRE_TOADETTE = "Feuer Toadette"
++FIRE_BUCKEN_BERRY = "Feuer Bucken Berry"
++FIRE_ALA_GOLD = "Feuer Ala Gold"
++ICE_TOADETTE = "Eis Toadette"
++ICE_BUCKEN_BERRY = "Eis Bucken Berry"
++ICE_ALA_GOLD = "Eis Ala Gold"
++ONEUP = "1-Up-Wunder"
++POISON = "Giftiger Pilz"
++FOREMAN = "Zerschmetternder Vorarbeiter"
++SERIOUS_BROWN = "Ernsthafter Braun"
++TRANS = "Trans-Klempner"
++JET_BLACK = "Pechschwarz"
++FOREST_GREEN = "Waldgrün"
++HAMMER_GRAY = "Hammergrau"
++GOLDEN_RACCOON = "Goldener Waschbär"
++AUTUMN_DECAY = "Herbstverfall"
++LOFI_PASTEL = "Lofi-Pastell"
++SUPERBALL_M = "Superball-Mario"
++SUPERBALL_L = "Superball-Luigi"
++SUPERBALL_T = "Superball-Toad"
++GB = "Game Boy"
++MONOCHROME = "Einfarbig"
++SMB1_MARIO = "SMB1 Mario"
++SMB1_LUIGI = "SMB1 Luigi"
++SMB1_FIRE = "SMB1 Feuer"
++SMB1_UNDER = "SMB1 Under Tage"
++SMB3_MARIO = "SMB3 Mario"
++SMB3_lUIGI = "SMB3 Luigi"
++SMW_MARIO = "SMW Mario"
++GRAND_DAD = "GRAND DAD"
++WRECKING_GREEN = "Zerstörendes Grün"
++CLASSIC = "Klassischer Mario"
++DEEP_AZURE = "Tiefes Azurblau"
++SKY_BLUE = "Himmelblau"
++OLDER_BLUE = "Älteres Blau"
++PINBALL = "Flipper Blau"
++PUMPKIN = "Kürbis"
++NOT_CLASSIC = "Verblasster Klassiker"
++CLASSIC_L = "Klassischer Luigi"
++ANIME = "Anime Blau"
++BENTGRASS = "Straußgras"
++SAPPHIRE = "Saphir"
++TURQUOISE = "Blasses Türkis"
++GREEEEEEEEN = "Grüne Grüne"
++SCARY_ORANGE = "Gruseliges Orange"
++GHOSTLY_PINK = "Geisterrosa"
++YOUNGER_GREEN = "Jüngeres Grün"
++GALAXY_RED = "Flug-Mario"
++GALAXY_GREEN = "Flug-Luigi"
++GALAXY_YELLOW = "Flug-Wario"
++GALAXY_PURPLE = "Flug-Waluigi"
++BUILDER_MARIO = "Baumeister Rot"
++BUILDER_LUIGI = "Baumeister Grün"
++SOIL = "Universeller Schmutz"
++CREVASE = "Kalte Gletscherspalte"
++LOU_RED = "Lou Rot"
++DANNY_GREEN = "Danny Grün"
++ACCOUTREMENTS = "Sanftes Gelb"
++CLASSIC_W = "Klassischer Wario"
++PURPOSE = "Sein Zweck"
++WARIO_WOODS = "Waldgefahr"
++PAST_LAND = "Vergangene Länder"
++DARK_CYAN = "Schmutziges Meer"
++CLASSIC_WL = "Klassischer Waluigi"
++TENNIS = "Tennis-Marine"
++BOXING = "Silberner Boxer"
++SYNTH_PURPLE = "Synthwave Lila"
++CHOCOLATE = "Schokoladenbraun"
++FOREMAN_2 = "Umgekehrter Vorarbeiter"
++LOGO64 = "64 Erinnerungen"
++SNES = "Super-Flieder"
++SWITCH = "Switch Neon"
++VB = "Virtuelles Rot"
++INNOCENCE = "Gebrochene Unschuld"
++DISCARDED = "Ausrangiertes Gelb"
++INTERNAL_PLEXUS = "Plexus Hölle"
++URIO = "FREE URIO"
++AIGI = "FREE AIGI"
++ALE_PASTEL = "Buntstift-Pastell"
+ CUSTOM = "Selbstgemacht"
+ 
+ [PLAYER_LIST]
+diff --git a/lang/Italian.ini b/lang/Italian.ini
+index 3ceec56e..0e0309bb 100644
+--- a/lang/Italian.ini
++++ b/lang/Italian.ini
+@@ -316,11 +316,98 @@ BUSY_BEE = "Ape Operaia"
+ FORTRESS = "Fortezza"
+ BATTLEMENTS = "Muraglia"
+ BLUEBERRY_PIE = "Torta ai Mirtilli"
++COFFEE = "Caffè con Panna"
++NIGHT = "Margine della Notte"
+ RASPBERRY = "Mora"
+ BUBBLEGUM = "Gomma da Masticare"
+ ICE_MARIO = "Mario Ghiaccio"
+ ICE_LUIGI = "Luigi Ghiaccio"
++ICE_WALUIGI = "Waluigi Ghiaccio"
++ICE_WARIO = "Wario Ghiaccio"
+ TOAD = "Toad"
++TOADSWORTH = "Mastro Toad"
++TOADETTE = "Toadette"
++BUCKEN_BERRY = "Bucken Berry"
++ALA_GOLD = "Ala Gold"
++FIRE_TOADETTE = "Toadette Fuoco"
++FIRE_BUCKEN_BERRY = "Bucken Berry Fuoco"
++FIRE_ALA_GOLD = "Ala Gold Fuoco"
++ICE_TOADETTE = "Toadette Ghiaccio"
++ICE_BUCKEN_BERRY = "Bucken Berry Ghiaccio"
++ICE_ALA_GOLD = "Ala Gold Ghiaccio"
++ONEUP = "1-Up Meraviglia"
++POISON = "Fungo Velenoso"
++FOREMAN = "Caposquadra"
++SERIOUS_BROWN = "Marrone Serio"
++TRANS = "Idraulico Trans"
++JET_BLACK = "Nero Corvino"
++FOREST_GREEN = "Verde Foresta"
++HAMMER_GRAY = "Grigio Martello"
++GOLDEN_RACCOON = "Procione D'oro"
++AUTUMN_DECAY = "Autunno"
++LOFI_PASTEL = "Lofi Pastello"
++SUPERBALL_M = "SuperBall Mario"
++SUPERBALL_L = "SuperBall Luigi"
++SUPERBALL_T = "SuperBall Toad"
++GB = "Game Boy"
++MONOCHROME = "Monocromo"
++SMB1_MARIO = "SMB1 Mario"
++SMB1_LUIGI = "SMB1 Luigi"
++SMB1_FIRE = "SMB1 Fuoco"
++SMB1_UNDER = "SMB1 Metropolitana"
++SMB3_MARIO = "SMB3 Mario"
++SMB3_lUIGI = "SMB3 Luigi"
++SMW_MARIO = "SMW Mario"
++GRAND_DAD = "GRAND DAD"
++WRECKING_GREEN = "Verde Devastante"
++CLASSIC = "Mario Classico"
++DEEP_AZURE = "Azzurro Profondo"
++SKY_BLUE = "Cielo Blu"
++OLDER_BLUE = "Blu Antico"
++PINBALL = "Flipper Blu"
++PUMPKIN = "Zucca"
++NOT_CLASSIC = "Classico Sbiadito"
++CLASSIC_L = "Luigi Classico"
++ANIME = "Blu dell'Anime"
++BENTGRASS = "Agrostis"
++SAPPHIRE = "Zaffiro"
++TURQUOISE = "Turchese Pallido"
++GREEEEEEEEN = "Verdi Verdi"
++SCARY_ORANGE = "Arancio Spaventoso"
++GHOSTLY_PINK = "Rosa Spettrale"
++YOUNGER_GREEN = "Younger Green"
++GALAXY_RED = "Mario Plano"
++GALAXY_GREEN = "Luigi Plano"
++GALAXY_YELLOW = "Wario Plano"
++GALAXY_PURPLE = "Waluigi Plano"
++BUILDER_MARIO = "Costruttore Rosso"
++BUILDER_LUIGI = "Costruttore Verde"
++SOIL = "Sporco Universale"
++CREVASE = "Crepaccio Freddo"
++LOU_RED = "Lou Rosso"
++DANNY_GREEN = "Danny Verde"
++ACCOUTREMENTS = "Giallo Tenue"
++CLASSIC_W = "Wario Classico"
++PURPOSE = "Il Suo Scopo"
++WARIO_WOODS = "Minaccia del Bosco"
++PAST_LAND = "Terre Passate"
++DARK_CYAN = "Mare Sporco"
++CLASSIC_WL = "Waluigi Classico"
++TENNIS = "Tennis Marino"
++BOXING = "Pugile D'Argento"
++SYNTH_PURPLE = "Synthwave Viola"
++CHOCOLATE = "CMarrone Cioccolato"
++FOREMAN_2 = "Caposquadra Invertito"
++LOGO64 = "64 Ricordi"
++SNES = "Super Lilla"
++SWITCH = "Switch Neon"
++VB = "Rosso Virtuale"
++INNOCENCE = "Innocenza Spezzata"
++DISCARDED = "Giallo Scartato"
++INTERNAL_PLEXUS = "Plesso Infernale"
++URIO = "FREE URIO"
++AIGI = "FREE AIGI"
++ALE_PASTEL = "Pastello"
+ CUSTOM = "Personalizzato"
+ 
+ [PLAYER_LIST]
+diff --git a/lang/Portuguese.ini b/lang/Portuguese.ini
+index d3573237..4df2dd4f 100644
+--- a/lang/Portuguese.ini
++++ b/lang/Portuguese.ini
+@@ -319,11 +319,98 @@ BUSY_BEE = "Abelha Atarefada"
+ FORTRESS = "Fortaleza"
+ BATTLEMENTS = "Muralhas"
+ BLUEBERRY_PIE = "Torta de Mirtilo"
++COFFEE = "Café com Creme"
++NIGHT = "Margem da Noite"
+ RASPBERRY = "Framboesa"
+ BUBBLEGUM = "Chiclete"
+ ICE_MARIO = "Mario de Gelo"
+ ICE_LUIGI = "Luigi de Gelo"
++ICE_WALUIGI = "Waluigi de Gelo"
++ICE_WARIO = "Wario de Gelo"
+ TOAD = "Toad"
++TOADSWORTH = "Toadsworth"
++TOADETTE = "Toadette"
++BUCKEN_BERRY = "Bucken Berry"
++ALA_GOLD = "Ala Gold"
++FIRE_TOADETTE = "Toadette de Fogo"
++FIRE_BUCKEN_BERRY = "Bucken Berry de Fogo"
++FIRE_ALA_GOLD = "Ala Gold de Fogo"
++ICE_TOADETTE = "Toadette de Gelo"
++ICE_BUCKEN_BERRY = "Bucken Berry de Gelo"
++ICE_ALA_GOLD = "Ala Gold de Gelo"
++ONEUP = "Vida Extra"
++POISON = "Fungo Venenoso"
++FOREMAN = "Capataz Esmagador"
++SERIOUS_BROWN = "Castanho Sério"
++TRANS = "Encanador Trans"
++JET_BLACK = "Azeviche"
++FOREST_GREEN = "Verde Floresta"
++HAMMER_GRAY = "Cinza Martelo"
++GOLDEN_RACCOON = "Mapache Dourado"
++AUTUMN_DECAY = "Decadência do Outono"
++LOFI_PASTEL = "Pastel Lofi"
++SUPERBALL_M = "Mario Superbola"
++SUPERBALL_L = "Luigi Superbola"
++SUPERBALL_T = "Toad Superbola"
++GB = "Game Boy"
++MONOCHROME = "Monocromático"
++SMB1_MARIO = "SMB1 Mario"
++SMB1_LUIGI = "SMB1 Luigi"
++SMB1_FIRE = "SMB1 Fogo"
++SMB1_UNDER = "SMB1 Subterrâneo"
++SMB3_MARIO = "SMB3 Mario"
++SMB3_lUIGI = "SMB3 Luigi"
++SMW_MARIO = "SMW Mario"
++GRAND_DAD = "GRAND DAD"
++WRECKING_GREEN = "Destruindo Verde"
++CLASSIC = "Mario Clássico"
++DEEP_AZURE = "Azul Profundo"
++SKY_BLUE = "Céu Azul"
++OLDER_BLUE = "Azul Antigo"
++PINBALL = "Pinball Azul"
++PUMPKIN = "Abóbora"
++NOT_CLASSIC = "Clássico Desbotado"
++CLASSIC_L = "Luigi Clássico"
++ANIME = "Anime Azul"
++BENTGRASS = "Grama"
++SAPPHIRE = "Safira"
++TURQUOISE = "Turquesa Pálida"
++GREEEEEEEEN = "Verde no Verde"
++SCARY_ORANGE = "Laranja Assustadora"
++GHOSTLY_PINK = "Rosa Fantasmagórico"
++YOUNGER_GREEN = "Verde Jovem"
++GALAXY_RED = "Mario Voador"
++GALAXY_GREEN = "Luigi Voador"
++GALAXY_YELLOW = "Wario Voador"
++GALAXY_PURPLE = "Waluigi Voador"
++BUILDER_MARIO = "Construtor Vermelho"
++BUILDER_LUIGI = "Construtor Verde"
++SOIL = "Sujeira Universal"
++CREVASE = "Cold Crevase"
++LOU_RED = "Vermelho Lou"
++DANNY_GREEN = "Verde Danny"
++ACCOUTREMENTS = "Amarelo Suave"
++CLASSIC_W = "Wario Clássico"
++PURPOSE = "Seu Propósito"
++WARIO_WOODS = "Ameaça da Floresta"
++PAST_LAND = "Terras Passadas"
++DARK_CYAN = "Mar Sujo"
++CLASSIC_WL = "Waluigi Clássico"
++TENNIS = "Tenis Marinho"
++BOXING = "Boxeador Prateado"
++SYNTH_PURPLE = "Roxo Synthwave"
++CHOCOLATE = "Chocolate Marrom"
++FOREMAN_2 = "Capataz Invertido"
++LOGO64 = "64 Memórias"
++SNES = "Super Lilás"
++SWITCH = "Néon Switch"
++VB = "Vermelho Virtual"
++INNOCENCE = "Inocência Quebrada"
++DISCARDED = "Amarelo Descartado"
++INTERNAL_PLEXUS = "Plexo Infernal"
++URIO = "FREE URIO"
++AIGI = "FREE AIGI"
++ALE_PASTEL = "Pastel Giz"
+ CUSTOM = "Customizado"
+ 
+ [PLAYER_LIST]
+diff --git a/lang/Russian.ini b/lang/Russian.ini
+index 34d11b56..091136e7 100644
+--- a/lang/Russian.ini
++++ b/lang/Russian.ini
+@@ -318,11 +318,98 @@ BUSY_BEE = "Жужжащая пчелка"
+ FORTRESS = "Крепость"
+ BATTLEMENTS = "Крепкая стена"
+ BLUEBERRY_PIE = "Черничный пирог"
++COFFEE = "Кофе со сливками"
++NIGHT = "Маржа ночи"
+ RASPBERRY = "Малина"
+ BUBBLEGUM = "Жвачка"
+ ICE_MARIO = "Ледяной Марио"
+ ICE_LUIGI = "Ледяной Луиджи"
++ICE_WALUIGI = "Ледяной Валуиджи"
++ICE_WARIO = "Ледяной Варио"
+ TOAD = "Тоад"s
++TOADSWORTH = "Тоадсворт"
++TOADETTE = "Тоадетта"
++BUCKEN_BERRY = "Бакен Берри"
++ALA_GOLD = "Ала Голд"
++FIRE_TOADETTE = "Огненный Тоадетта"
++FIRE_BUCKEN_BERRY = "Огненный Бакен Берри"
++FIRE_ALA_GOLD = "Огненный Ала Голд"
++ICE_TOADETTE = "Ледяной Тоадетта"
++ICE_BUCKEN_BERRY = "Ледяной Бакен Берри"
++ICE_ALA_GOLD = "Ледяной Ала Голд"
++ONEUP = "Гриб жизни"
++POISON = "Ядовитый гриб"
++FOREMAN = "Сокрушительный бригадир"
++SERIOUS_BROWN = "Серьезный коричневый"
++TRANS = "Транс сантехник"
++JET_BLACK = "Yгольно-черный"
++FOREST_GREEN = "Зеленый лес"
++HAMMER_GRAY = "Молот серый"
++GOLDEN_RACCOON = "Золотой енот"
++AUTUMN_DECAY = "Осенний распад"
++LOFI_PASTEL = "Пастель лофи"
++SUPERBALL_M = "Марио с супершаром"
++SUPERBALL_L = "Луиджи с супершаром"
++SUPERBALL_T = "Тоад с супершаром"
++GB = "Геймбой"
++MONOCHROME = "Монохромный"
++SMB1_MARIO = "SMB1 Марио"
++SMB1_LUIGI = "SMB1 Луиджи"
++SMB1_FIRE = "SMB1 Огненный"
++SMB1_UNDER = "SMB1 подполье"
++SMB3_MARIO = "SMB3 Марио"
++SMB3_lUIGI = "SMB3 Луиджи"
++SMW_MARIO = "SMW Марио"
++GRAND_DAD = "GRAND DAD"
++WRECKING_GREEN = "Разрушительный зеленый"
++CLASSIC = "Классический Марио"
++DEEP_AZURE = "Глубокая лазурь"
++SKY_BLUE = "Голубое небо"
++OLDER_BLUE = "Старый красный"
++PINBALL = "Пинбол синий"
++PUMPKIN = "Тыква"
++NOT_CLASSIC = "Блеклая классика"
++CLASSIC_L = "Классический Луиджи"
++ANIME = "Аниме синий"
++BENTGRASS = "Природа зеленый"
++SAPPHIRE = "Сапфир"
++TURQUOISE = "Бледно-бирюзовый"
++GREEEEEEEEN = "Зеленая зелень"
++SCARY_ORANGE = "Страшный апельсин"
++GHOSTLY_PINK = "Призрачно-розовый"
++YOUNGER_GREEN = "Младший зеленый"
++GALAXY_RED = "Летающий Марио"
++GALAXY_GREEN = "Летающий Луиджи"
++GALAXY_YELLOW = "Летающий Варио"
++GALAXY_PURPLE = "Летающий Валуиджи"
++BUILDER_MARIO = "Строитель красный"
++BUILDER_LUIGI = "Cтроитель зеленый"
++SOIL = "Универсальный грунт"
++CREVASE = "Холодная трещина"
++LOU_RED = "Лу красный"
++DANNY_GREEN = "Дэнни грин"
++ACCOUTREMENTS = "Мягкий желтый"
++CLASSIC_W = "Классический Варио"
++PURPOSE = "Его цель"
++WARIO_WOODS = "Лесная угроза"
++PAST_LAND = "Прошлые земли"
++DARK_CYAN = "Грязное море"
++CLASSIC_WL = "Классический Валуиджи"
++TENNIS = "Теннисный синий"
++BOXING = "Серебряный боксер"
++SYNTH_PURPLE = "Синтвейв фиолетовый"
++CHOCOLATE = "Шоколадно-коричневый"
++FOREMAN_2 = "Перевернутый бригадир"
++LOGO64 = "64 Воспоминания"
++SNES = "Супер сирень"
++SWITCH = "Неоновый гибрид"
++VB = "Виртуальный красный"
++INNOCENCE = "Сломанная невинность"
++DISCARDED = "Выброшенный желтый"
++INTERNAL_PLEXUS = "Адское сплетение"
++URIO = "FREE URIO"
++AIGI = "FREE AIGI"
++ALE_PASTEL = "Пастельный мелок"
+ CUSTOM = "Свой"
+ 
+ [PLAYER_LIST]
+diff --git a/lang/Spanish.ini b/lang/Spanish.ini
+index 73506d53..31bcd3c0 100644
+--- a/lang/Spanish.ini
++++ b/lang/Spanish.ini
+@@ -319,11 +319,98 @@ BUSY_BEE = "Abeja Ocupada"
+ FORTRESS = "Fortaleza"
+ BATTLEMENTS = "Acorazado"
+ BLUEBERRY_PIE = "Tarta de Arándanos"
++COFFEE = "Café con Nata"
++NIGHT = "Margen de la Noche"
+ RASPBERRY = "Frambuesa"
+ BUBBLEGUM = "Chicle"
+ ICE_MARIO = "Mario de Hielo"
+ ICE_LUIGI = "Luigi de Hielo"
++ICE_WALUIGI = "Waluigi de Hielo"
++ICE_WARIO = "Wario de Hielo"
+ TOAD = "Toad"
++TOADSWORTH = "Maestro Kinopio"
++TOADETTE = "Toadette"
++BUCKEN_BERRY = "Bucken Berry"
++ALA_GOLD = "Ala Gold"
++FIRE_TOADETTE = "Toadette de Fuego"
++FIRE_BUCKEN_BERRY = "Bucken Berry de F."
++FIRE_ALA_GOLD = "Ala Gold de Fuego"
++ICE_TOADETTE = "Toadette de Hielo"
++ICE_BUCKEN_BERRY = "Bucken Berry de H."
++ICE_ALA_GOLD = "Ala Gold de Hielo"
++ONEUP = "Vida Extra"
++POISON = "Seta Venenosa"
++FOREMAN = "Capatáz Peleón"
++SERIOUS_BROWN = "Marrón Serio"
++TRANS = "Fontanero Trans"
++JET_BLACK = "Negro Azabache"
++FOREST_GREEN = "Verde Bosque"
++HAMMER_GRAY = "Gris Martillo"
++GOLDEN_RACCOON = "Mapache Dorado"
++AUTUMN_DECAY = "Decadencia Otoñal"
++LOFI_PASTEL = "Pastel Lofi"
++SUPERBALL_M = "Mario SuperBola"
++SUPERBALL_L = "Luigi SuperBola"
++SUPERBALL_T = "Toad SuperBola"
++GB = "Game Boy"
++MONOCHROME = "Monocromo"
++SMB1_MARIO = "SMB1 Mario"
++SMB1_LUIGI = "SMB1 Luigi"
++SMB1_FIRE = "SMB1 Fuego"
++SMB1_UNDER = "SMB1 Subterráneo"
++SMB3_MARIO = "SMB3 Mario"
++SMB3_lUIGI = "SMB3 Luigi"
++SMW_MARIO = "SMW Mario"
++GRAND_DAD = "GRAND DAD"
++WRECKING_GREEN = "Verde Demoledor"
++CLASSIC = "Mario Clásico"
++DEEP_AZURE = "Azur Profundo"
++SKY_BLUE = "Azul Celeste"
++OLDER_BLUE = "Azul Antiguo"
++PINBALL = "Azul Pinball"
++PUMPKIN = "Calabaza"
++NOT_CLASSIC = "Clásico Desteñido"
++CLASSIC_L = "Luigi Clásico"
++ANIME = "Azul Anime"
++BENTGRASS = "Verde Grama"
++SAPPHIRE = "Zafiro"
++TURQUOISE = "Turquesa Pálido"
++GREEEEEEEEN = "Verde sobre Verde"
++SCARY_ORANGE = "Naranja de Miedo"
++GHOSTLY_PINK = "Rosa Fantasmal"
++YOUNGER_GREEN = "Verde Jóven"
++GALAXY_RED = "Mario Volador"
++GALAXY_GREEN = "Luigi Volador"
++GALAXY_YELLOW = "Wario Volador"
++GALAXY_PURPLE = "Waluigi Volador"
++BUILDER_MARIO = "Rojo Constructor"
++BUILDER_LUIGI = "Verde Constructor"
++SOIL = "Tierra Universal"
++CREVASE = "Grieta Fría"
++LOU_RED = "Rojo Lou"
++DANNY_GREEN = "Verde Danny"
++ACCOUTREMENTS = "Amarillo Suave"
++CLASSIC_W = "Wario Clásico"
++PURPOSE = "Su Propósito"
++WARIO_WOODS = "Peligro del Bosque"
++PAST_LAND = "Terreno Pasado"
++DARK_CYAN = "Mar Sucio"
++CLASSIC_WL = "Waluigi Clásico"
++TENNIS = "Marino Tenis"
++BOXING = "Boxeador Plateado"
++SYNTH_PURPLE = "Violeta Synthwave"
++CHOCOLATE = "Marrón Chocolate"
++FOREMAN_2 = "Capatáz Invertido"
++LOGO64 = "64 Memorias"
++SNES = "Super Lila"
++SWITCH = "Switch Neón"
++VB = "Rojo Virtual"
++INNOCENCE = "Inocencia Rota"
++DISCARDED = "Amarillo Descartado"
++INTERNAL_PLEXUS = "Plexo Infernal"
++URIO = "FREE URIO"
++AIGI = "FREE AIGI"
++ALE_PASTEL = "Pastel Cera"
+ CUSTOM = "Personalizada"
+ 
+ [PLAYER_LIST]
+diff --git a/src/game/characters.c b/src/game/characters.c
+index 8314ec88..7cb063f8 100644
+--- a/src/game/characters.c
++++ b/src/game/characters.c
+@@ -378,35 +378,122 @@ const struct PlayerPalette gPalettePresets[PALETTE_PRESET_MAX] = {
+ {{{ 0x00, 0x00, 0xfe }, { 0x00, 0x98, 0x00 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x00, 0x98, 0x00 }}}, // Luigi
+ {{{ 0x2c, 0x26, 0x3f }, { 0x61, 0x26, 0xb0 }, { 0xff, 0xff, 0xff }, { 0xfe, 0x76, 0x00 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x61, 0x26, 0xb0 }}}, // Waluigi
+ {{{ 0x7f, 0x20, 0x7a }, { 0xe3, 0xa9, 0x01 }, { 0xff, 0xff, 0xff }, { 0x0e, 0x72, 0x1c }, { 0x73, 0x53, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe3, 0xa9, 0x01 }}}, // Wario
++{{{ 0x4c, 0x2c, 0xd3 }, { 0xff, 0xff, 0xff }, { 0xff, 0xff, 0xff }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0xff, 0x00, 0x00 }}}, // Toad
+ {{{ 0xff, 0x00, 0x00 }, { 0x7b, 0x00, 0xde }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x7b, 0x00, 0xde }}}, // Chuckya
+ {{{ 0xc6, 0xb1, 0x32 }, { 0x95, 0x43, 0x01 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x95, 0x43, 0x01 }}}, // Goomba
+-{{{ 0x07, 0x09, 0x07 }, { 0x4c, 0x5f, 0x20 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x4c, 0x5f, 0x20 }}}, // Clover
+ {{{ 0xbf, 0xde, 0xff }, { 0x00, 0x2f, 0xc8 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x00, 0x2f, 0xc8 }}}, // Cobalt
++{{{ 0x07, 0x09, 0x07 }, { 0x4c, 0x5f, 0x20 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x4c, 0x5f, 0x20 }}}, // Clover
+ {{{ 0xf8, 0x3b, 0x05 }, { 0x11, 0x11, 0x11 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x11, 0x11, 0x11 }}}, // Fury
+ {{{ 0x34, 0x16, 0x0d }, { 0xc1, 0x2c, 0x72 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xc1, 0x2c, 0x72 }}}, // Hot Pink
+ {{{ 0xff, 0x00, 0x00 }, { 0xff, 0x96, 0xc8 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xff, 0x96, 0xc8 }}}, // Nice Pink
+ {{{ 0x81, 0x00, 0x00 }, { 0x4c, 0xff, 0x4c }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x4c, 0xff, 0x4c }}}, // Seafoam
+ {{{ 0x61, 0x3d, 0x2e }, { 0xa9, 0x78, 0xfc }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xa9, 0x78, 0xfc }}}, // Lilac
+ {{{ 0x00, 0x46, 0x5c }, { 0x84, 0x60, 0x00 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x84, 0x60, 0x00 }}}, // Copper
+-{{{ 0x4f, 0x31, 0x8b }, { 0x5a, 0x94, 0xff }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x5a, 0x94, 0xff }}}, // Azure
+ {{{ 0x23, 0x11, 0x03 }, { 0x68, 0x0a, 0x17 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x68, 0x0a, 0x17 }}}, // Burgundy
++{{{ 0x4f, 0x31, 0x8b }, { 0x5a, 0x94, 0xff }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x5a, 0x94, 0xff }}}, // Azure
+ {{{ 0x53, 0x39, 0x3d }, { 0x95, 0xd0, 0x8f }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x95, 0xd0, 0x8f }}}, // Mint
+ {{{ 0xe6, 0xe3, 0xff }, { 0x37, 0x32, 0x42 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x37, 0x32, 0x42 }}}, // Eggplant
+ {{{ 0x00, 0x51, 0x10 }, { 0xff, 0x8a, 0x00 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xff, 0x8a, 0x00 }}}, // Orange
+ {{{ 0x4c, 0x1e, 0x3f }, { 0x65, 0xfa, 0xff }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x65, 0xfa, 0xff }}}, // Arctic
+-{{{ 0xb2, 0x28, 0x18 }, { 0xe6, 0xe6, 0xe6 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe6, 0xe6, 0xe6 }}}, // Fire Mario
+-{{{ 0x00, 0x98, 0x00 }, { 0xe6, 0xe6, 0xe6 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe6, 0xe6, 0xe6 }}}, // Fire Luigi
+-{{{ 0x6d, 0x3c, 0x9a }, { 0xe6, 0xe6, 0xe6 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe6, 0xe6, 0xe6 }}}, // Fire Waluigi
+-{{{ 0xf9, 0xeb, 0x30 }, { 0xe6, 0xe6, 0xe6 }, { 0xff, 0xff, 0xff }, { 0x0e, 0x72, 0x1c }, { 0x73, 0x53, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe6, 0xe6, 0xe6 }}}, // Fire Wario
++{{{ 0xd6, 0x35, 0x4d }, { 0x3b, 0x8f, 0xf7 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x3b, 0x8f, 0xf7 }}}, // Raspberry
++{{{ 0xd6, 0x35, 0x4d }, { 0xff, 0x8e, 0xb2 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xff, 0x8e, 0xb2 }}}, // Bubblegum
++{{{ 0x00, 0x59, 0x46 }, { 0x8f, 0xc3, 0x43 }, { 0xff, 0xff, 0xff }, { 0x78, 0x5f, 0x23 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x00, 0x59, 0x46 }}}, // Forest Green
++{{{ 0x97, 0x53, 0x30 }, { 0x57, 0x47, 0x29 }, { 0xff, 0xe5, 0x96 }, { 0x31, 0x36, 0x38 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xc5, 0x79, 0x38 }}}, // Autumn Decay
++{{{ 0x84, 0xa1, 0xbb }, { 0xb2, 0x78, 0xa6 }, { 0xbd, 0xac, 0xff }, { 0x49, 0x38, 0x60 }, { 0x5b, 0x6a, 0x98 }, { 0xfe, 0xc1, 0x79 }, { 0xb2, 0x78, 0xa6 }}}, // Lofi Pastel
++{{{ 0xd3, 0x99, 0x31 }, { 0x81, 0x62, 0xff }, { 0xed, 0xd2, 0xff }, { 0x24, 0x3c, 0x72 }, { 0xcb, 0xbb, 0x70 }, { 0xfe, 0xc1, 0x79 }, { 0x81, 0x62, 0xff }}}, // Crayon Pastel
++{{{ 0x1a, 0x1a, 0x1a }, { 0x2c, 0x2c, 0x2c }, { 0x64, 0x64, 0x64 }, { 0x64, 0x64, 0x64 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x1a, 0x1a, 0x1a }}}, // Jet Black
++{{{ 0x5e, 0x14, 0x46 }, { 0x31, 0x1f, 0x80 }, { 0x1f, 0x14, 0x2e }, { 0x1f, 0x14, 0x2e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xd4, 0x2e, 0x9a }}}, // Synth Purple
++{{{ 0x3e, 0x27, 0x10 }, { 0x98, 0x6a, 0x3f }, { 0xa5, 0x8a, 0x71 }, { 0x87, 0x6d, 0x54 }, { 0x9c, 0x7f, 0x5f }, { 0xc2, 0xb0, 0x7c }, { 0x4e, 0x34, 0x22 }}}, // Choco Brown
+ {{{ 0x17, 0x18, 0x15 }, { 0xe7, 0xe7, 0x21 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe7, 0xe7, 0x21 }}}, // Busy Bee
+ {{{ 0xf7, 0x9a, 0x47 }, { 0xaa, 0x27, 0x31 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xaa, 0x27, 0x31 }}}, // Fortress
+ {{{ 0xf7, 0xc2, 0x45 }, { 0x55, 0x92, 0xb2 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x55, 0x92, 0xb2 }}}, // Battlements
+ {{{ 0xeb, 0x8a, 0x4b }, { 0x10, 0x1b, 0x2e }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x10, 0x1b, 0x2e }}}, // Blueberry Pie
+-{{{ 0xd6, 0x35, 0x4d }, { 0x3b, 0x8f, 0xf7 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x3b, 0x8f, 0xf7 }}}, // Raspberry
+-{{{ 0xd6, 0x35, 0x4d }, { 0xff, 0x8e, 0xb2 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xff, 0x8e, 0xb2 }}}, // Bubblegum
++{{{ 0xb0, 0x9d, 0x6b }, { 0x5d, 0x30, 0x15 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xb0, 0x9d, 0x6b }}}, // Coffee Cream
++{{{ 0x6b, 0x18, 0x18 }, { 0x4c, 0x26, 0x90 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x31, 0x1a, 0x1d }}}, // Margin of Night
++{{{ 0xaf, 0x10, 0x10 }, { 0x00, 0x4d, 0x9a }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xbf, 0x10, 0x10 }}}, // Classic Mario
++{{{ 0x2d, 0x84, 0x1d }, { 0x2a, 0x35, 0x76 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x2d, 0x84, 0x1d }}}, // Classic Luigi
++{{{ 0x71, 0x36, 0xc0 }, { 0x2c, 0x26, 0x3f }, { 0xff, 0xff, 0xff }, { 0xfe, 0x76, 0x00 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x71, 0x36, 0xc0 }}}, // Classic Waluigi
++{{{ 0xe3, 0xa9, 0x1c }, { 0x7f, 0x30, 0x7a }, { 0xff, 0xff, 0xff }, { 0x0e, 0x72, 0x1c }, { 0x73, 0x53, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe3, 0xa9, 0x1c }}}, // Classic Wario
++{{{ 0xb2, 0x28, 0x18 }, { 0xe6, 0xe6, 0xe6 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe6, 0xe6, 0xe6 }}}, // Fire Mario
++{{{ 0x00, 0x98, 0x00 }, { 0xe6, 0xe6, 0xe6 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe6, 0xe6, 0xe6 }}}, // Fire Luigi
++{{{ 0x6d, 0x3c, 0x9a }, { 0xe6, 0xe6, 0xe6 }, { 0xff, 0xff, 0xff }, { 0xfe, 0x76, 0x00 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe6, 0xe6, 0xe6 }}}, // Fire Waluigi
++{{{ 0xf9, 0xeb, 0x30 }, { 0xe6, 0xe6, 0xe6 }, { 0xff, 0xff, 0xff }, { 0x0e, 0x72, 0x1c }, { 0x73, 0x53, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe6, 0xe6, 0xe6 }}}, // Fire Wario
+ {{{ 0xb2, 0x28, 0x18 }, { 0x47, 0xc5, 0xff }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x47, 0xc5, 0xff }}}, // Ice Mario
+ {{{ 0x00, 0x98, 0x00 }, { 0x47, 0xc5, 0xff }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x47, 0xc5, 0xff }}}, // Ice Luigi
+-{{{ 0x4c, 0x2c, 0xd3 }, { 0xff, 0xff, 0xff }, { 0xff, 0xff, 0xff }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0xff, 0x00, 0x00 }}}, // Toad
++{{{ 0x6d, 0x3c, 0x9a }, { 0x47, 0xc5, 0xff }, { 0xff, 0xff, 0xff }, { 0xfe, 0x76, 0x00 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x47, 0xc5, 0xff }}}, // Ice Waluigi
++{{{ 0xf9, 0xeb, 0x30 }, { 0x47, 0xc5, 0xff }, { 0xff, 0xff, 0xff }, { 0x0e, 0x72, 0x1c }, { 0x73, 0x53, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x47, 0xc5, 0xff }}}, // Ice Wario
++{{{ 0x20, 0x20, 0x20 }, { 0x90, 0x10, 0x10 }, { 0xff, 0xff, 0xff }, { 0x90, 0x10, 0x10 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x20, 0x20, 0x20 }}}, // Galactic Red Fly
++{{{ 0x20, 0x20, 0x20 }, { 0x10, 0x90, 0x10 }, { 0xff, 0xff, 0xff }, { 0x10, 0x90, 0x10 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x20, 0x20, 0x20 }}}, // Galactic Green Fly
++{{{ 0x20, 0x20, 0x20 }, { 0x51, 0x28, 0xa0 }, { 0xff, 0xff, 0xff }, { 0x51, 0x28, 0xa0 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x20, 0x20, 0x20 }}}, // Galactic Purple Fly
++{{{ 0x20, 0x20, 0x20 }, { 0xc5, 0x99, 0x10 }, { 0xff, 0xff, 0xff }, { 0xc5, 0x99, 0x10 }, { 0x73, 0x53, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x20, 0x20, 0x20 }}}, // Galactic Yellow Fly
++{{{ 0x12, 0x12, 0x7a }, { 0xa0, 0x12, 0x12 }, { 0xff, 0xff, 0xff }, { 0x99, 0x49, 0x00 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x12, 0x12, 0x7a }}}, // Mario Bros. Arcade (Mario)
++{{{ 0x12, 0xac, 0x12 }, { 0x55, 0x10, 0x10 }, { 0xff, 0xff, 0xff }, { 0x38, 0x00, 0xd0 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x12, 0xac, 0x12 }}}, // Mario Bros. Arcade (Luigi)
++{{{ 0xb2, 0x28, 0x18 }, { 0xef, 0x98, 0x18 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xef, 0xa8, 0x18 }}}, // Builder Mario
++{{{ 0x00, 0x88, 0x00 }, { 0xef, 0x98, 0x18 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xef, 0xa8, 0x18 }}}, // Builder Luigi
++{{{ 0x7f, 0x7f, 0x53 }, { 0x3d, 0x3d, 0x1e }, { 0xe5, 0xe5, 0xac }, { 0x3d, 0x3d, 0x1e }, { 0x3d, 0x3d, 0x1e }, { 0xe5, 0xe5, 0xac }, { 0x3d, 0x3d, 0x1e }}}, // SuperBall Mario
++{{{ 0x3d, 0x3d, 0x1e }, { 0x7f, 0x7f, 0x53 }, { 0xe5, 0xe5, 0xac }, { 0x7f, 0x7f, 0x53 }, { 0x3d, 0x3d, 0x1e }, { 0xe5, 0xe5, 0xac }, { 0x7f, 0x7f, 0x53 }}}, // SuperBall Luigi
++{{{ 0x8c, 0x26, 0x1f }, { 0x80, 0xa1, 0xf4 }, { 0xff, 0xff, 0xff }, { 0x3a, 0x1d, 0x00 }, { 0x3e, 0x00, 0x00 }, { 0xff, 0xb6, 0x91 }, { 0x8c, 0x26, 0x1f }}}, // Lou Red
++{{{ 0x55, 0x90, 0x55 }, { 0x80, 0xa1, 0xf4 }, { 0xff, 0xff, 0xff }, { 0x3a, 0x1d, 0x00 }, { 0x3e, 0x00, 0x00 }, { 0xff, 0xb6, 0x91 }, { 0x55, 0x90, 0x55 }}}, // Danny Green
++{{{ 0x9d, 0x8c, 0x8d }, { 0xa0, 0x69, 0x00 }, { 0xff, 0xff, 0xff }, { 0x36, 0x25, 0x18 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x9d, 0x8c, 0x8d }}}, // Hammer Grey
++{{{ 0xf0, 0xf0, 0xf0 }, { 0xe5, 0xaa, 0x20 }, { 0xff, 0xff, 0xff }, { 0xe5, 0xaa, 0x20 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xf0, 0xf0, 0xf0 }}}, // Golden Raccoon
++{{{ 0x6c, 0x18, 0x99 }, { 0x72, 0x5e, 0xaa }, { 0xe3, 0xcc, 0x7d }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0x52, 0x35, 0x15 }}}, // Toadsworth
++{{{ 0xfa, 0x12, 0x35 }, { 0xff, 0x7f, 0xd8 }, { 0xff, 0x7f, 0xd8 }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0xff, 0xff, 0xff }}}, // Toadette
++{{{ 0x24, 0x2c, 0xff }, { 0xff, 0xff, 0xff }, { 0xff, 0xff, 0xff }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0x24, 0x2c, 0xff }}}, // Bucken Berry
++{{{ 0xff, 0xa8, 0x00 }, { 0xff, 0xff, 0xff }, { 0xff, 0xff, 0xff }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0xff, 0xa8, 0x00 }}}, // Ala Gold
++{{{ 0xfa, 0x12, 0x35 }, { 0xff, 0x7f, 0xd8 }, { 0xeb, 0x15, 0x10 }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0xff, 0x7f, 0xd8 }}}, // Fire Toadette
++{{{ 0xeb, 0x1c, 0x24 }, { 0xeb, 0x1c, 0x24 }, { 0x2f, 0x7d, 0xe8 }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0xeb, 0x1c, 0x24 }}}, // Fire Bucken Berry
++{{{ 0xeb, 0x1c, 0x24 }, { 0xeb, 0x1c, 0x24 }, { 0xff, 0xe9, 0x00 }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0xeb, 0x1c, 0x24 }}}, // Fire Ala Gold
++{{{ 0x2a, 0xa8, 0xc2 }, { 0xff, 0x7f, 0xd8 }, { 0x2a, 0xa8, 0xc2 }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0xff, 0x55, 0xac }}}, // Ice Toadette
++{{{ 0x41, 0x98, 0xef }, { 0x41, 0x98, 0xef }, { 0x34, 0x60, 0xff }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0x64, 0xa0, 0xff }}}, // Ice Bucken Berry
++{{{ 0x41, 0x98, 0xef }, { 0x41, 0x98, 0xef }, { 0xff, 0xe9, 0x00 }, { 0x68, 0x40, 0x1b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xd5, 0xa1 }, { 0x41, 0x98, 0xef }}}, // Ice Ala Gold
++{{{ 0x3d, 0x3d, 0x1e }, { 0xe5, 0xe5, 0xac }, { 0xe5, 0xe5, 0xac }, { 0x3d, 0x3d, 0x1e }, { 0x3d, 0x3d, 0x1e }, { 0x7f, 0x7f, 0x53 }, { 0x3d, 0x3d, 0x1e }}}, // SuperBall Toad
++{{{ 0x5a, 0x8f, 0x56 }, { 0xff, 0xfb, 0x8c }, { 0x5a, 0x8f, 0x56 }, { 0x99, 0x99, 0x99 }, { 0x73, 0x06, 0x00 }, { 0xfb, 0xe7, 0xaf }, { 0xff, 0xfb, 0x8c }}}, // 1-Up Wonder
++{{{ 0xc8, 0x4c, 0x0c }, { 0x79, 0x3b, 0xf8 }, { 0x79, 0x3b, 0xf8 }, { 0x15, 0x15, 0x15 }, { 0x73, 0x06, 0x00 }, { 0xfc, 0xbc, 0xb0 }, { 0xff, 0x70, 0xff }}}, // Poison Fungus
++{{{ 0x42, 0x8b, 0xf1 }, { 0x9d, 0xc2, 0xf7 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x42, 0x8b, 0xf1 }}}, // Pinball
++{{{ 0x15, 0x15, 0x15 }, { 0xff, 0x6c, 0x00 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xff, 0x6c, 0x00 }}}, // Pumpkin
++{{{ 0xb7, 0x95, 0x5a }, { 0xc0, 0xc0, 0x30 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xc0, 0xc0, 0x30 }}}, // Soft Yellow
++{{{ 0x64, 0x25, 0x00 }, { 0xb3, 0xa6, 0x6a }, { 0xff, 0xff, 0xff }, { 0x17, 0x21, 0x68 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x64, 0x25, 0x00 }}}, // Smashing Foreman
++{{{ 0x28, 0x1b, 0x00 }, { 0x99, 0x99, 0x99 }, { 0xff, 0xff, 0xff }, { 0x1b, 0x21, 0x4F }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x28, 0x1b, 0x00 }}}, // Serious Brown
++{{{ 0xaa, 0x4b, 0x00 }, { 0x00, 0xaa, 0x00 }, { 0xff, 0xff, 0xff }, { 0x41, 0x00, 0x30 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x00, 0xaa, 0x00 }}}, // SSB Mario Green Team
++{{{ 0x31, 0x9e, 0xd2 }, { 0xae, 0x51, 0x7f }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x31, 0x9e, 0xd2 }}}, // Trans Plumber
++{{{ 0x3a, 0x3b, 0xdc }, { 0x05, 0x05, 0x05 }, { 0xff, 0xff, 0xff }, { 0x2a, 0x10, 0x01 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x18, 0x2b, 0xb2 }}}, // Golf P3 Mario
++{{{ 0x90, 0xca, 0xc2 }, { 0x16, 0x12, 0x77 }, { 0xff, 0xff, 0xff }, { 0x80, 0x3b, 0x00 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x96, 0xd0, 0xc6 }}}, // Golf P4 Mario
++{{{ 0xd7, 0x4c, 0x1f }, { 0x2a, 0x35, 0x76 }, { 0xff, 0xff, 0xff }, { 0x3a, 0x13, 0x00 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xd7, 0x4c, 0x1f }}}, // Faded Classic
++{{{ 0x50, 0x28, 0x18 }, { 0x43, 0xa7, 0x10 }, { 0xff, 0xff, 0xff }, { 0x6b, 0x41, 0x00 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x48, 0x18, 0x18 }}}, // Universal Soil
++{{{ 0xd4, 0xdf, 0xe7 }, { 0x51, 0xa9, 0x9c }, { 0xff, 0xff, 0xff }, { 0x6b, 0x41, 0x00 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xd4, 0xdf, 0xe7 }}}, // Cold Crevase
++{{{ 0x0f, 0x1c, 0x95 }, { 0xc5, 0x9c, 0x0d }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x0f, 0x1c, 0x95 }}}, // Luigi - Super Mario Bros.: Peach-Hime Kyushutsu Dai Sakusen!
++{{{ 0x96, 0x86, 0x29 }, { 0x02, 0x4b, 0x00 }, { 0xff, 0xff, 0xff }, { 0x5f, 0x34, 0x0a }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x02, 0x4b, 0x00 }}}, // Golf P2 Luigi
++{{{ 0x4a, 0x30, 0x19 }, { 0x10, 0x26, 0xbe }, { 0xff, 0xff, 0xff }, { 0x25, 0x19, 0x06 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x10, 0x26, 0xbe }}}, // Golf P3 Luigi
++{{{ 0x17, 0x16, 0x24 }, { 0x9b, 0xd3, 0x90 }, { 0xff, 0xff, 0xff }, { 0x4b, 0x30, 0x0b }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x9b, 0xd3, 0x90 }}}, // Golf P4 Luigi
++{{{ 0x3c, 0x80, 0x2c }, { 0x69, 0xb0, 0x30 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x69, 0xb0, 0x30 }}}, // P1 Scarescraper
++{{{ 0xe3, 0x68, 0x05 }, { 0x69, 0xb0, 0x30 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xe3, 0x68, 0x05 }}}, // P3 Scarescraper
++{{{ 0xdf, 0x56, 0x8d }, { 0x69, 0xb0, 0x30 }, { 0xff, 0xff, 0xff }, { 0x72, 0x1c, 0x0e }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xdf, 0x56, 0x8d }}}, // P4 Scarescraper
++{{{ 0x15, 0x15, 0x15 }, { 0xb7, 0xc4, 0x92 }, { 0xff, 0xff, 0xff }, { 0xcc, 0x18, 0x1e }, { 0x73, 0x53, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xb7, 0xc4, 0x92 }}}, // Golf P3 Wario
++{{{ 0x65, 0x00, 0x65 }, { 0x2e, 0x9a, 0x82 }, { 0xff, 0xff, 0xff }, { 0x00, 0x31, 0x35 }, { 0x73, 0x53, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x2e, 0x9a, 0x82 }}}, // Golf P4 Wario
++{{{ 0xb5, 0xa5, 0x82 }, { 0x2b, 0x24, 0x24 }, { 0x90, 0x78, 0x24 }, { 0x2e, 0x17, 0x1c }, { 0x73, 0x53, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xb5, 0xa5, 0x82 }}}, // Inverted Foreman
++{{{ 0xa8, 0x2e, 0x57 }, { 0xc3, 0x8b, 0x39 }, { 0xff, 0xff, 0xff }, { 0x1d, 0x58, 0x47 }, { 0x73, 0x53, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xc3, 0x8b, 0x39 }}}, // His Purpose
++{{{ 0x15, 0x15, 0x15 }, { 0x50, 0x51, 0xf9 }, { 0xff, 0xff, 0xff }, { 0xff, 0xff, 0xff }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x50, 0x51, 0xf9 }}}, // Tennis Days
++{{{ 0x8c, 0x8a, 0x8c }, { 0xa4, 0x00, 0xfe }, { 0x20, 0x41, 0xe0 }, { 0x84, 0x30, 0x00 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xa4, 0x00, 0xfe }}}, // Silver Boxer
++{{{ 0x4f, 0xa2, 0x50 }, { 0x36, 0x77, 0x4b }, { 0x88, 0xc1, 0x76 }, { 0x22, 0x49, 0x3b }, { 0x22, 0x49, 0x3b }, { 0x88, 0xc1, 0x76 }, { 0x4f, 0xa2, 0x50 }}}, // Game Boy
++{{{ 0x0e, 0x0e, 0x0e }, { 0xff, 0xff, 0xff }, { 0xa9, 0xa9, 0xa9 }, { 0x54, 0x54, 0x54 }, { 0x0e, 0x0e, 0x0e }, { 0xa9, 0xa9, 0xa9 }, { 0xff, 0xff, 0xff }}}, // Monochrome
++{{{ 0xb4, 0x32, 0x21 }, { 0x6a, 0x62, 0x00 }, { 0xea, 0x9d, 0x23 }, { 0x6a, 0x62, 0x00 }, { 0x6a, 0x62, 0x00 }, { 0xea, 0x9d, 0x23 }, { 0xb4, 0x32, 0x21 }}}, // SMB1 Mario
++{{{ 0xff, 0xff, 0xff }, { 0x38, 0x87, 0x00 }, { 0xea, 0x9d, 0x23 }, { 0x38, 0x87, 0x00 }, { 0x38, 0x87, 0x00 }, { 0xea, 0x9d, 0x23 }, { 0xff, 0xff, 0xff }}}, // SMB1 Luigi
++{{{ 0xf7, 0xd8, 0xa5 }, { 0xb5, 0x31, 0x20 }, { 0xea, 0x9d, 0x23 }, { 0xb5, 0x31, 0x20 }, { 0xb5, 0x31, 0x20 }, { 0xea, 0x9d, 0x23 }, { 0xf7, 0xd8, 0xa5 }}}, // SMB1 Fire
++{{{ 0x18, 0x3c, 0x5c }, { 0x00, 0x80, 0x88 }, { 0x9c, 0xfc, 0xf0 }, { 0x00, 0x80, 0x88 }, { 0x00, 0x80, 0x88 }, { 0x9c, 0xfc, 0xf0 }, { 0x18, 0x3c, 0x5c }}}, // SMB1 Underground
++{{{ 0x15, 0x15, 0x15 }, { 0xb2, 0x32, 0x26 }, { 0xfe, 0xce, 0xc7 }, { 0xb2, 0x32, 0x26 }, { 0x15, 0x15, 0x15 }, { 0xfe, 0xce, 0xc7 }, { 0xb2, 0x32, 0x26 }}}, // SMB3 Mario
++{{{ 0x15, 0x15, 0x15 }, { 0x62, 0xe2, 0x40 }, { 0xfe, 0xce, 0xc7 }, { 0x62, 0xe2, 0x40 }, { 0x15, 0x15, 0x15 }, { 0xfe, 0xce, 0xc7 }, { 0x62, 0xe2, 0x40 }}}, // SMB3 Luigi
++{{{ 0x55, 0xb2, 0xb2 }, { 0xd3, 0x36, 0x4a }, { 0xf8, 0xf8, 0xf8 }, { 0x88, 0x58, 0x18 }, { 0x15, 0x15, 0x15 }, { 0xff, 0xa0, 0x79 }, { 0xd3, 0x36, 0x4a }}}, // SMW Mario
++{{{ 0xa2, 0x19, 0xcb }, { 0xdc, 0xbe, 0x96 }, { 0xff, 0xff, 0xff }, { 0x15, 0x15, 0x15 }, { 0x73, 0x53, 0x00 }, { 0xfd, 0x96, 0x83 }, { 0xa2, 0x19, 0xcb }}}, // Wario's Woods
++{{{ 0x32, 0x99, 0x00 }, { 0xc3, 0x14, 0x20 }, { 0xd5, 0x92, 0x12 }, { 0xd5, 0x92, 0x12 }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x16, 0x16, 0x98 }}}, // Get N or Get Out
++{{{ 0x59, 0x2d, 0x76 }, { 0xad, 0xa8, 0xde }, { 0xdf, 0xdf, 0xd0 }, { 0x3d, 0x3d, 0x3f }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0xad, 0xa8, 0xde }}}, // Super Lilac
++{{{ 0x28, 0x28, 0x28 }, { 0xdb, 0x3c, 0x2e }, { 0x00, 0x9d, 0xbd }, { 0x00, 0x9d, 0xbd }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x28, 0x28, 0x28 }}}, // Switch Neon
++{{{ 0x91, 0x00, 0x00 }, { 0x48, 0x00, 0x00 }, { 0xf1, 0x00, 0x00 }, { 0x0c, 0x0c, 0x0c }, { 0x0c, 0x0c, 0x0c }, { 0xf1, 0x00, 0x00 }, { 0x48, 0x00, 0x00 }}}, // Virtually Red
++{{{ 0x40, 0x0a, 0x03 }, { 0x12, 0x11, 0x08 }, { 0xff, 0xff, 0xff }, { 0x12, 0x11, 0x08 }, { 0x12, 0x11, 0x08 }, { 0xff, 0xff, 0xff }, { 0x40, 0x0a, 0x03 }}}, // Shattered Innocence
++{{{ 0x0d, 0x29, 0x9d }, { 0xff, 0xc5, 0x29 }, { 0xff, 0xff, 0xff }, { 0x62, 0x1c, 0x00 }, { 0x53, 0x23, 0x10 }, { 0xf1, 0xd3, 0xbd }, { 0xff, 0xc5, 0x29 }}}, // Discarded Yellow
++{{{ 0x3c, 0x05, 0x00 }, { 0x40, 0x42, 0xad }, { 0x10, 0x0c, 0x26 }, { 0x8b, 0x29, 0x9a }, { 0x73, 0x06, 0x00 }, { 0xfe, 0xc1, 0x79 }, { 0x80, 0x9d, 0xe4 }}}, // Plexus Inferno
++{{{ 0xfc, 0x74, 0x60 }, { 0xa4, 0x00, 0x00 }, { 0xfc, 0xfc, 0xfc }, { 0xfc, 0xfc, 0xfc }, { 0x00, 0x70, 0xec }, { 0xfc, 0xfc, 0xfc }, { 0xa4, 0x00, 0x00 }}}, // Grand Dad
++{{{ 0x1c, 0x84, 0x08 }, { 0x1f, 0x1f, 0xaa }, { 0xff, 0xff, 0xff }, { 0x2f, 0x0a, 0x64 }, { 0x49, 0x3f, 0x91 }, { 0xb9, 0x8a, 0xf2 }, { 0x1f, 0x1f, 0xaa }}}, // urio
++{{{ 0x17, 0x52, 0x07 }, { 0x8b, 0x1e, 0x1b }, { 0xff, 0xff, 0xff }, { 0x2f, 0x0a, 0x64 }, { 0x49, 0x3f, 0x91 }, { 0xb9, 0x8a, 0xf2 }, { 0x8b, 0x1e, 0x1b }}}, // aigi
+ };
+ 
+ enum AnimType {
+diff --git a/src/game/characters.h b/src/game/characters.h
+index 726fca4b..89c6e498 100644
+--- a/src/game/characters.h
++++ b/src/game/characters.h
+@@ -5,7 +5,7 @@
+ #include "pc/configfile.h"
+ // NOTE: do not include any additional headers
+ 
+-#define PALETTE_PRESET_MAX 33
++#define PALETTE_PRESET_MAX 120
+ 
+ enum PlayerParts {
+     PANTS, SHIRT, GLOVES, SHOES, HAIR, SKIN, CAP, PLAYER_PART_MAX, METAL = CAP
+diff --git a/src/pc/djui/djui_panel_player.c b/src/pc/djui/djui_panel_player.c
+index 22e0e2d5..4db804ec 100644
+--- a/src/pc/djui/djui_panel_player.c
++++ b/src/pc/djui/djui_panel_player.c
+@@ -270,35 +270,122 @@ void djui_panel_player_create(struct DjuiBase* caller) {
+             DLANG(PALETTE, LUIGI),
+             DLANG(PALETTE, WALUIGI),
+             DLANG(PALETTE, WARIO),
++            DLANG(PALETTE, TOAD),
+             DLANG(PALETTE, CHUCKYA),
+             DLANG(PALETTE, GOOMBA),
+-            DLANG(PALETTE, CLOVER),
+             DLANG(PALETTE, COBALT),
++            DLANG(PALETTE, CLOVER),
+             DLANG(PALETTE, FURY),
+             DLANG(PALETTE, HOT_PINK),
+             DLANG(PALETTE, NICE_PINK),
+             DLANG(PALETTE, SEAFOAM),
+             DLANG(PALETTE, LILAC),
+             DLANG(PALETTE, COPPER),
+-            DLANG(PALETTE, AZURE),
+             DLANG(PALETTE, BURGUNDY),
++            DLANG(PALETTE, AZURE),
+             DLANG(PALETTE, MINT),
+             DLANG(PALETTE, EGGPLANT),
+             DLANG(PALETTE, ORANGE),
+             DLANG(PALETTE, ARCTIC),
+-            DLANG(PALETTE, FIRE_MARIO),
+-            DLANG(PALETTE, FIRE_LUIGI),
+-            DLANG(PALETTE, FIRE_WALUIGI),
+-            DLANG(PALETTE, FIRE_WARIO),
++            DLANG(PALETTE, RASPBERRY),
++            DLANG(PALETTE, BUBBLEGUM),
++            DLANG(PALETTE, FOREST_GREEN),
++            DLANG(PALETTE, AUTUMN_DECAY),
++            DLANG(PALETTE, LOFI_PASTEL),
++            DLANG(PALETTE, ALE_PASTEL),
++            DLANG(PALETTE, JET_BLACK),
++            DLANG(PALETTE, SYNTH_PURPLE),
++            DLANG(PALETTE, CHOCOLATE),
+             DLANG(PALETTE, BUSY_BEE),
+             DLANG(PALETTE, FORTRESS),
+             DLANG(PALETTE, BATTLEMENTS),
+             DLANG(PALETTE, BLUEBERRY_PIE),
+-            DLANG(PALETTE, RASPBERRY),
+-            DLANG(PALETTE, BUBBLEGUM),
++            DLANG(PALETTE, COFFEE),
++            DLANG(PALETTE, NIGHT),
++            DLANG(PALETTE, CLASSIC),
++            DLANG(PALETTE, CLASSIC_L),
++            DLANG(PALETTE, CLASSIC_WL),
++            DLANG(PALETTE, CLASSIC_W),
++            DLANG(PALETTE, FIRE_MARIO),
++            DLANG(PALETTE, FIRE_LUIGI),
++            DLANG(PALETTE, FIRE_WALUIGI),
++            DLANG(PALETTE, FIRE_WARIO),
+             DLANG(PALETTE, ICE_MARIO),
+             DLANG(PALETTE, ICE_LUIGI),
+-            DLANG(PALETTE, TOAD),
++            DLANG(PALETTE, ICE_WALUIGI),
++            DLANG(PALETTE, ICE_WARIO),
++            DLANG(PALETTE, GALAXY_RED),
++            DLANG(PALETTE, GALAXY_GREEN),
++            DLANG(PALETTE, GALAXY_PURPLE),
++            DLANG(PALETTE, GALAXY_YELLOW),
++            DLANG(PALETTE, OLDER_BLUE),
++            DLANG(PALETTE, YOUNGER_GREEN),
++            DLANG(PALETTE, BUILDER_MARIO),
++            DLANG(PALETTE, BUILDER_LUIGI),
++            DLANG(PALETTE, SUPERBALL_M),
++            DLANG(PALETTE, SUPERBALL_L),
++            DLANG(PALETTE, LOU_RED),
++            DLANG(PALETTE, DANNY_GREEN),
++            DLANG(PALETTE, HAMMER_GRAY),
++            DLANG(PALETTE, GOLDEN_RACCOON),
++            DLANG(PALETTE, TOADSWORTH),
++            DLANG(PALETTE, TOADETTE),
++            DLANG(PALETTE, BUCKEN_BERRY),
++            DLANG(PALETTE, ALA_GOLD),
++            DLANG(PALETTE, FIRE_TOADETTE),
++            DLANG(PALETTE, FIRE_BUCKEN_BERRY),
++            DLANG(PALETTE, FIRE_ALA_GOLD),
++            DLANG(PALETTE, ICE_TOADETTE),
++            DLANG(PALETTE, ICE_BUCKEN_BERRY),
++            DLANG(PALETTE, ICE_ALA_GOLD),
++            DLANG(PALETTE, SUPERBALL_T),
++            DLANG(PALETTE, ONEUP),
++            DLANG(PALETTE, POISON),
++            DLANG(PALETTE, PINBALL),
++            DLANG(PALETTE, PUMPKIN),
++            DLANG(PALETTE, ACCOUTREMENTS),
++            DLANG(PALETTE, FOREMAN),
++            DLANG(PALETTE, SERIOUS_BROWN),
++            DLANG(PALETTE, WRECKING_GREEN),
++            DLANG(PALETTE, TRANS),
++            DLANG(PALETTE, DEEP_AZURE),
++            DLANG(PALETTE, SKY_BLUE),
++            DLANG(PALETTE, NOT_CLASSIC),
++            DLANG(PALETTE, SOIL),
++            DLANG(PALETTE, CREVASE),
++            DLANG(PALETTE, ANIME),
++            DLANG(PALETTE, BENTGRASS),
++            DLANG(PALETTE, SAPPHIRE),
++            DLANG(PALETTE, TURQUOISE),
++            DLANG(PALETTE, GREEEEEEEEN),
++            DLANG(PALETTE, SCARY_ORANGE),
++            DLANG(PALETTE, GHOSTLY_PINK),
++            DLANG(PALETTE, PAST_LAND),
++            DLANG(PALETTE, DARK_CYAN),
++            DLANG(PALETTE, FOREMAN_2),
++            DLANG(PALETTE, PURPOSE),
++            DLANG(PALETTE, TENNIS),
++            DLANG(PALETTE, BOXING),
++            DLANG(PALETTE, GB),
++            DLANG(PALETTE, MONOCHROME),
++            DLANG(PALETTE, SMB1_MARIO),
++            DLANG(PALETTE, SMB1_LUIGI),
++            DLANG(PALETTE, SMB1_FIRE),
++            DLANG(PALETTE, SMB1_UNDER),
++            DLANG(PALETTE, SMB3_MARIO),
++            DLANG(PALETTE, SMB3_LUIGI),
++            DLANG(PALETTE, SMW_MARIO),
++            DLANG(PALETTE, WARIO_WOODS),
++            DLANG(PALETTE, LOGO64),
++            DLANG(PALETTE, SNES),
++            DLANG(PALETTE, SWITCH),
++            DLANG(PALETTE, VB),
++            DLANG(PALETTE, INNOCENCE),
++            DLANG(PALETTE, DISCARDED),
++            DLANG(PALETTE, INTERNAL_PLEXUS),
++            DLANG(PALETTE, GRAND_DAD),
++            DLANG(PALETTE, URIO),
++            DLANG(PALETTE, AIGI),
+             DLANG(PALETTE, CUSTOM),
+         };
+ 

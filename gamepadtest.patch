@@ -1,0 +1,22 @@
+diff --git a/app/jni/src b/app/jni/src
+index c49c8a5..595fa2f 160000
+--- a/app/jni/src
++++ b/app/jni/src
+@@ -1 +1 @@
+-Subproject commit c49c8a587b6a8f9e28172438fc4f8d471825e9e2
++Subproject commit 595fa2f2cd16ac1373c8f68b957ffecd47c9cdaa
+diff --git a/app/src/main/java/org/libsdl/app/SDLControllerManager.java b/app/src/main/java/org/libsdl/app/SDLControllerManager.java
+index 71f31b6..75f2429 100644
+--- a/app/src/main/java/org/libsdl/app/SDLControllerManager.java
++++ b/app/src/main/java/org/libsdl/app/SDLControllerManager.java
+@@ -206,9 +206,7 @@ class SDLJoystickHandler_API16 extends SDLJoystickHandler {
+                             }
+                         }
+                     }
+-                    if (getVendorId(joystickDevice) != 0 &&
+-                        getProductId(joystickDevice) != 0 &&
+-                        joystick.axes.size() != 0)
++                    if (joystick.axes.size() != 0)
+                     {
+                         mJoysticks.add(joystick);
+                         SDLControllerManager.nativeAddJoystick(joystick.device_id, joystick.name, joystick.desc,

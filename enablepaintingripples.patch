@@ -1,0 +1,49 @@
+diff --git a/src/game/paintings.c b/src/game/paintings.c
+index 73404e88..adce1724 100644
+--- a/src/game/paintings.c
++++ b/src/game/paintings.c
+@@ -879,25 +879,25 @@ void painting_update_floors(struct Painting *painting) {
+         |* (unique) surface types. This code checks which surface Mario is currently on   *|
+         \* and sets a bitfield accordingly.                                               */
+ 
+-        // check if Mario's current floor is one of the special floors
+-        // if (floorType == paintingId * 3 + SURFACE_PAINTING_WOBBLE_A6) {
+-        //     rippleLeft = RIPPLE_LEFT;
+-        // }
+-        // if (floorType == paintingId * 3 + SURFACE_PAINTING_WOBBLE_A7) {
+-        //     rippleMiddle = RIPPLE_MIDDLE;
+-        // }
+-        // if (floorType == paintingId * 3 + SURFACE_PAINTING_WOBBLE_A8) {
+-        //     rippleRight = RIPPLE_RIGHT;
+-        // }
+-        // if (floorType == paintingId * 3 + SURFACE_PAINTING_WARP_D3) {
+-        //     enterLeft = ENTER_LEFT;
+-        // }
+-        // if (floorType == paintingId * 3 + SURFACE_PAINTING_WARP_D4) {
+-        //     enterMiddle = ENTER_MIDDLE;
+-        // }
+-        // if (floorType == paintingId * 3 + SURFACE_PAINTING_WARP_D5) {
+-        //     enterRight = ENTER_RIGHT;
+-        // }
++         //check if Mario's current floor is one of the special floors
++         if (floorType == paintingId * 3 + SURFACE_PAINTING_WOBBLE_A6) {
++             rippleLeft = RIPPLE_LEFT;
++         }
++         if (floorType == paintingId * 3 + SURFACE_PAINTING_WOBBLE_A7) {
++             rippleMiddle = RIPPLE_MIDDLE;
++         }
++         if (floorType == paintingId * 3 + SURFACE_PAINTING_WOBBLE_A8) {
++             rippleRight = RIPPLE_RIGHT;
++         }
++         if (floorType == paintingId * 3 + SURFACE_PAINTING_WARP_D3) {
++             enterLeft = ENTER_LEFT;
++         }
++         if (floorType == paintingId * 3 + SURFACE_PAINTING_WARP_D4) {
++             enterMiddle = ENTER_MIDDLE;
++         }
++         if (floorType == paintingId * 3 + SURFACE_PAINTING_WARP_D5) {
++             enterRight = ENTER_RIGHT;
++         }
+ 
+ 
+         painting->ripples.lastFloors[i] = painting->ripples.currFloors[i];
